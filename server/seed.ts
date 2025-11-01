@@ -967,7 +967,7 @@ const PRODUCTS = [
     name: "Radiance By Forever Facewash",
     description: "Radiance by Forever Facewash is formulated with a blend of natural extracts, offering a deep yet gentle cleansing experience. Infused with aloe vera, licorice, bamboo, apple, carrot, and rose flower extracts, this facewash provides effective cleansing while also nourishing the skin with essential nutrients. It works to eliminate dirt, impurities, and excess oil while keeping the skin hydrated and supple. The combination of natural ingredients helps ensure gentle exfoliation ensures that your skin remains soft, radiant, and refreshed. The inclusion of apple extract aids in gently exfoliating the skin, helping to unclog pores and promote healthy cell turnover. This, combined with aloe vera's natural hydrating properties, ensures that your skin stays moisturized without feeling dry or tight. Licorice extract is particularly beneficial for reducing inflammation and soothing irritation, making this facewash ideal for sensitive skin types or those prone to redness. Bamboo, licorice, and carrot extracts add an antioxidant boost, promoting a youthful glow and helping to combat the appearance of dark spots and pigmentation. Carrot extract, combined with rose flower extract, works to not only cleanse but also enhance skin health, leaving it smooth, soft, and rejuvenated. The antioxidants also help protect the skin from environmental damage, maintaining its natural radiance. Overall, Radiance by Forever Facewash is designed to provide deep cleansing, hydration, and gentle exfoliation in one simple step. It unclogs pores, soothes irritation, reduces dark spots, and promotes youthful skin, making it an essential part of your daily skincare routine.",
     shortDescription: "Gentle, natural cleanse for radiant skin.",
-    image: "",
+    image: "/images/products/radiance-facewash.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -994,7 +994,7 @@ const PRODUCTS = [
     name: "Radiance By Forever Moisturizer",
     description: "Radiance by Forever Moisturizer is a luxurious blend of natural extracts, expertly formulated to hydrate and nourish the skin. Infused with aloe vera, moringa oil, wheat germ oil, and saffron, and neem extract, this moisturizer works to provide essential nutrients and promote overall skin health. The rich, yet non-greasy formula absorbs quickly through the skin, providing well-hydrated throughout the day, making it an essential addition to your daily skincare routine. Wheat germ oil and moringa oil are packed with vitamins and antioxidants, which help to protect the skin from damage caused by free radicals. This powerful duo not only promotes healthy skin but also aids in repairing and rejuvenating the skin's appearance. Aloe vera, well-known for its calming properties, soothes irritation, redness, and supports the skin's natural healing processes. Together, these ingredients create a soothing formula that is ideal for all skin types, including sensitive skin. Saffron and wheat germ oil provide additional antioxidant protection, working to even out skin tone and diminish the appearance of fine lines and uneven texture. Neem extract, along with zinc oxide, plays a crucial role in controlling acne and soothing inflammation, while also reducing the appearance of pores. This multifaceted approach ensures that your skin looks its best, feeling revitalized and balanced. Overall, Radiance by Forever Moisturizer is designed to deliver deep hydration while addressing multiple skin concerns. Its lightweight formula absorbs quickly, leaving your skin feeling soft and refreshed without any greasy residue. Embrace a healthier complexion and achieve a radiant glow with this nourishing moisturizer that promotes youthful skin.",
     shortDescription: "Nourishing, lightweight hydration for radiant skin.",
-    image: "",
+    image: "/images/products/radiance-moisturizer.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1022,7 +1022,7 @@ const PRODUCTS = [
     name: "Radiance By Forever Mud Mask Scrub",
     description: "Only nature can deliver such a powerful yet gentle formula. Infused with the calming properties of Aloe Vera Powder, this advanced treatment soothes, hydrates, and rejuvenates, leaving your skin refreshed and revitalized. Bamboo Charcoal works deeply within the pores, drawing out toxins, impurities, and excess oil, while leaving your skin feeling clean and smooth. This helps to provide a rich dose of antioxidants, vitamins, and essential fatty acids to nourish and protect. The cooling effect of Cucumber Extract helps minimize puffiness and calm inflammation, restoring your skin's smooth and healthy appearance. With regular use, you'll notice refined skin texture, reduced fine lines, and a radiant, balanced complexion. Hydrating yet purifying, this formula supports the skin's natural barrier and leaves your skin soft, smooth, and glowing. Use two to three times a week to detoxify and renew your skin, unlocking your healthiest, most radiant look yet.",
     shortDescription: "Purify, nourish, and reveal your skin's natural glow with the perfect balance of deep cleansing and soothing hydration.",
-    image: "",
+    image: "/images/products/radiance-mud-mask-scrub.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1050,7 +1050,7 @@ const PRODUCTS = [
     name: "Radiance By Forever Toner",
     description: "Forever Radiance Toner is a gentle yet powerful addition to your skincare routine. Specially formulated with ingredients to balance the skin's natural pH, this toner works to reduce irritation and inflammation, leaving your skin refreshed in every application. Infused with skin-loving ingredients like Licorice Extract (Mulethi) and Aloe Vera Liquid Extract, this toner hydrates and nourishes, helping to keep your skin sensitive while visibly reducing redness. It brightens and evens out your complexion by fading dark spots and hyperpigmentation, promoting a radiant, even-toned glow. Forever Radiance Toner also preps the skin for maximum absorption of subsequent skincare products, ensuring you get the most out of your beauty routine. With Geogard ECT, a COSMOS-approved eco-friendly preservative system, this toner offers superior safety and stability while being gentle on your skin and kind to the environment. Reveal soft, supple, and balanced skin, perfectly primed for your next skincare steps.",
     shortDescription: "Forever Radiance Toner",
-    image: "",
+    image: "/images/products/radiance-toner.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1076,7 +1076,7 @@ const PRODUCTS = [
     name: "Aloe Heat Lotion",
     description: "Soothe away the pressures of the day. Experience the relaxing sensation of Aloe Heat Lotion after a tough workout or long day at work. This aloe-powered formula delivers heating and cooling effects to help soothe tired muscles. Ultra-rich and non-greasy, this creamy lotion is perfect for a deep, relaxing massage to set your mind and body at ease. Aloe Heat Lotion goes on cool and stimulates with the sensation of aloe and menthol to soothe on contact. It then warms, while ingredients like eucalyptus helps relax your muscles and create a naturally aromatic experience. The aloe used in this skin nourishing lotion is grown at Forever's own fields. We hand harvest and hand fillet every leaf to ensure quality stabilized aloe vera is in every bottle of Aloe Heat Lotion. By combining our aloe with other powerful natural ingredients, Forever has created a lotion that will not only leave you feeling more relaxed, but leave your skin feeling soft, smooth and nourished. Massage away the stresses of the day and feel refreshed and ready to take on tomorrow.",
     shortDescription: "Soothe away the pressures of the day",
-    image: "",
+    image: "/images/products/aloe-heat-lotion.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1101,7 +1101,7 @@ const PRODUCTS = [
     name: "Aloe MSM Gel",
     description: "Cool, calming relief for any gym bag. Forever's Aloe MSM Gel is your ticket to soothing relief when and where you need it. We combined pure inner leaf aloe vera with natural sulfoxy methane (MSM), an organic sulfur compound found in living organisms. MSM has powerful skin calming properties and combined with pure aloe gel it provides optimal comfort and moisturization. But the soothing power of Aloe MSM Gel doesn't stop with those two ingredients. This clear, non-staining formula includes natural herbal extracts like tea tree leaf oil, willow bark extract and glycerin to calm and condition skin. The addition of rosemary leaf extract draws water to the skin to keep it hydrated and comfortable. This versatile gel is a must-have for any gym bag. Apply liberally and massage into skin to soothe sore joints and muscles after a tough workout. If your lifestyle keeps you on the move, show your body the love it deserves and keep Aloe MSM Gel ready for the next adventure. Apply liberally and massage into your skin after a long day or a tough workout to sooth your muscles and joints.",
     shortDescription: "Cool, calming relief for any gym bag",
-    image: "",
+    image: "/images/products/aloe-msm-gel.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1127,7 +1127,7 @@ const PRODUCTS = [
     name: "Gentleman's Pride",
     description: "Aloe powered moisturizing aftershave. Give your post-shave routine a soothing upgrade with Gentleman's Pride™. This aloe powered aftershave also acts as a super hydrating moisturizer for your entire face and neck. Forever's formula is free of alcohol and features an exclusive blend of ingredients that provides an exhilaration with a clean and classically sophisticated masculine scent. Crafted with pure inner leaf aloe vera, Gentleman's Pride™ will provide long-lasting comfort and leave you feeling fresh and invigorated. Shaving can cause irritating nicks, scratches or razor burn as the blade moves across your face. Most aftershaves have a high alcohol content that can leave your skin feeling dry. That's not the case with Gentleman's Pride™. Natural skin conditioners like rosemary, vitamin E and cucumber work alongside aloe and sodium hyaluronate to deeply soothe and moisturize. Gentleman's Pride™ allows you to face the day with confidence and comfort. This is the next generation of sophisticated skincare developed exclusively for men.",
     shortDescription: "Aloe powered moisturizing aftershave",
-    image: "",
+    image: "/images/products/gentlemans-pride.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1550,7 +1550,7 @@ const PRODUCTS = [
     name: "Aloe Propolis Creme",
     description: "The best of aloe and the hive. Only Forever could create a product as inventive as Aloe Propolis Creme. This nourishing cream combines two of our most prized ingredients, pure inner leaf aloe vera gel and bee propolis. Together, these two fundamental elements help your skin maintain beautiful tone and texture. Bee propolis is a resinous substance that bees create to fortify their hives. Turns out it also has properties that create a natural barrier on your skin, locking in the natural skincare benefits of aloe. Aloe vera combined with vitamin A, E and C work to nourish and moisturize the skin while bee propolis helps rejuvenate skin's appearance for smoother, suppler look and feel. Aloe Propolis Creme also enhances the soothing power of aloe with the addition of chamomile. Of course, we use pure, inner leaf aloe vera gel from our own fields. The aloe is hand harvested and filleted to avoid damage and ensure only the highest quality aloe vera makes it into our products. It's easy to see why Aloe Propolis Creme is one of Forever's flagship products. Treat your skin to the soothing, nourishing and protecting power packed inside every bottle.",
     shortDescription: "The best of aloe and the hive",
-    image: "",
+    image: "/images/products/aloe-propolis-creme.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
