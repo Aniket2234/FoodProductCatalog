@@ -867,7 +867,7 @@ const PRODUCTS = [
     name: "Awakening Eye Cream",
     description: "Awakening eye cream combines patented ingredients with peptide technology to improve and smooth the sensitive eye area, visibly reducing the appearance of lines, wrinkles and dark circles. This groundbreaking formula helps with normal collagen formation to promote youthful skin hydration and elasticity. Featuring advanced collagen, awakening eye cream improves skin smoothness, resulting in plumper, firmer skin around the eye for a total revitalizing makeover! Awakening eye cream also contains a special peptide that has been shown to reduce the appearance of eye puffiness and dark circles in as little as 15 days! A cutting-edge ingredient, albizia julibrissin bark extract, is shown to have a lifting action on the sagging upper eye lid and helps revitalize the delicate area around the eye for a total anti-aging and perking effect. Blur the look of crow's feet and fade the appearance of dark circles with awakening eye cream. Instead of dry, puffy eye skin, eyes appear more rested, alert and rejuvenated. All these powerhouse ingredients make the most advanced eye cream to allow your beauty to shine. Have striking eyes that look brighter and younger with awakening eye cream.",
     shortDescription: "Beautify the eye.",
-    image: "",
+    image: "/images/products/awakening-eye-cream.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -891,7 +891,7 @@ const PRODUCTS = [
     name: "Smoothing Exfoliator",
     description: "Old skin can look flaky, tired and dull. The right exfoliator removes dead skin cells to reveal brighter skin with a smooth tone and texture. Forever's smoothing exfoliator was designed to get the job done without stressing the soft, newer skin underneath. Instead of using harsh chemicals or sharp fragments, smoothing exfoliator uses five powerful yet natural ingredients to work together to provide a complete and rejuvenating cleansing experience. Jojoba beads gently roll across the skin to remove dirt and debris while sustainably-sourced bamboo powder sweeps the skin to remove dead cells. Bromelain, papain and lemon essential oil create a perfect natural skin tonic. Pineapple-derived bromelain has enzymatic abilities that assist in destroying the keratin of dead skin cells allowing them to be removed more easily. Papain, from papaya, assists in rejuvenating skin and is a rich source of vitamins C, A, E and pantothenic acid. Forever's smoothing exfoliator is also infused with antioxidants and aloe gel, designed to provide the most effective and gentle exfoliating experience and lemon essential oil for instant hydration of the younger skin below the surface. Of course, this exclusive formula has a high content of pure inner-leaf aloe vera gel to smooth and condition skin. Make the most of your skin care routine with smoothing exfoliator.",
     shortDescription: "Smooths skin tone and texture.",
-    image: "",
+    image: "/images/products/smoothing-exfoliator.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -916,7 +916,7 @@ const PRODUCTS = [
     name: "Protecting Day Lotion",
     description: "Protecting your skin from sun damage and correcting earlier skin-related issues is more important than ever. Start your day off right with Forever's protecting day lotion, now with an improved formula upgraded for all skin types. Protecting day lotion delivers formula double duty, shielding your face from harmful UVA/UVB rays and rehydrating it with a blend of skin-nourishing ingredients. A blend of oils that includes brassica napus, castor and desert date is rich in antioxidants, protecting the skin from free radicals. Castor and desert date oils combine to provide high amounts of essential fatty acids to give your skin a soft, smooth texture. Although rich in nutrients for your skin, these oils absorb quickly and won't clog pores. This new formula also contains linoleic, oleic and palmitoleic essential fatty acids. Each a component of skin-replacement 'lipids,' these ingredients mimic the fat structure of the skin to prevent epidermal water loss, keeping the skin moisturized during sun exposure. The broad spectrum, UVA/UVB sun protection comes from natural mineral zinc oxide. This reef-friendly, non-nano zinc includes advanced coating technology to shield your skin without the telltale sunscreen white cast. No matter your daily level of sun exposure, Forever's protecting day lotion is the perfect addition to any skin care routine.",
     shortDescription: "Broad-spectrum protection combined with skin care ingredients.",
-    image: "",
+    image: "/images/products/protecting-day-lotion.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -940,7 +940,7 @@ const PRODUCTS = [
     name: "Aloe Body Lotion",
     description: "Forever's Aloe Body Lotion is the perfect everyday moisturizer to soften skin and leave it feeling smooth, hydrated and healthy. Our lightweight formula absorbs quickly to deliver the powerful benefits of aloe vera and other moisturizing ingredients almost instantly. We combined a high concentration of pure inner leaf aloe vera with argan-based oils and botanicals for a skin-enhancing blend of enhancing ingredients to work for you. Aloe forms the ideal base for moisturizing and promoting healthy skin health. Argan oil contains vitamin E and fatty acids that help soften skin while hydrolyzed jojoba esters help promote moisture and skin firmness and elasticity. The addition of macadamia seed oil makes Aloe Body Lotion an excellent choice for dry and mature skin due to its high palmitoleic acid content, which promotes healthy looking skin. But this formula isn't just for people with dry or mature skin. Forever created this silicone-free formula for anyone with normal to dry skin by adding ingredients like sodium hyaluronate, which forms a protective barrier on the skin and helps retain moisture. Aloe Body Lotion also features a bright aroma featuring light florals for a scent that's universally appealing. When you need a go-to daily lotion that leaves skin feeling soft and silky, but never greasy, make sure you have Forever's Aloe Body Lotion close by.",
     shortDescription: "Fast absorbing lotion, for daily use.",
-    image: "",
+    image: "/images/products/aloe-body-lotion.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1153,7 +1153,7 @@ const PRODUCTS = [
     name: "Forever Aloe Lips with Jojoba",
     description: "Soothe away the pressures of the day. When it comes to your skincare routine, don't let your lips feel left out. Soften, condition and soothe with Forever Aloe Lips™ with jojoba. Forever Aloe Lips™ is the ultimate year-round solution to dry, chapped lips. Aloe, jojoba and beeswax soothe, smooth and comfort your lips while providing a long-lasting moisture barrier for your precious lips. We didn't stop there. Forever Aloe Lips™ includes jojoba oil, a natural wax that both soothes and protects your lips. We combined jojoba with a skin conditioning agent called myristyl myristate. The soothing power of aloe combined with a perfectly balanced mix of natural ingredients will leave your lips feeling cool, plump and moisturized, all while three types of wax lock in moisture and give your lips a stunning gloss. From winter snow to summer sunshine, make sure your lips are prepared for anything the great outdoors has to offer!",
     shortDescription: "Soothe away the pressures of the day",
-    image: "",
+    image: "/images/products/forever-aloe-lips.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1178,7 +1178,7 @@ const PRODUCTS = [
     name: "Forever Alpha-E Factor",
     description: "Replenish your skin with ultimate moisturization. Forever Alpha-E Factor™ is fueled by anti-aging powerhouse vitamin E, which pulls double duty by fighting free radicals while promoting soft and radiant skin. This nourishing formula includes other antioxidants like vitamins A and retinyl palmitate to defend from free radicals and support aging gracefully. Free radicals are responsible for 80% of skin damage and come from unavoidable factors like pollution and UV rays. Alpha-E Factor™'s lightweight formula glides on easily, delivering advanced moisture and protection from free radicals, while vitamin C leads the charge against oxidative stress. Dryness is one of the most irritating signs of skin distress caused by environmental factors. To hydrate dry or sensitive skin, borage oil boasts some of the highest concentrations of essential fatty acids that act as natural enzyme remedies to restore moisture. Give your skin the nourishment it needs to fight free radicals and support healthy, younger-looking skin. Just a little bit of Forever Alpha-E Factor™ goes a long way toward promoting your most hydrated skin.",
     shortDescription: "Replenish your skin with ultimate moisturization",
-    image: "",
+    image: "/images/products/forever-alpha-e-factor.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1203,7 +1203,7 @@ const PRODUCTS = [
     name: "Aloe Moisturizing Lotion",
     description: "Silky smooth texture that locks in moisture. Experience the advanced, deep moisturization that only pure, inner leaf aloe vera can provide. Forever's Aloe Moisturizing Lotion is made with hand-harvested, hand filleted aloe to moisturize, soothe and restore your skin. Day in and day out our skin is exposed to weather, wind and stress, all of which can take a toll on your skin. Aloe moisturizing lotion is a powerhouse formula when it comes to replenishing lost moisture and restoring soft, supple skin. The rich texture provides your skin a truly indulgent experience. Perfect for the body and hands, the addition of collagen and elastin work to keep skin smooth, soft and elastic while maintaining a natural pH balance. Another benefit of Aloe Moisturizing Lotion is its outstanding humectant properties to preserve, maintain and lock in moisture. Natural ingredients like apricot kernel oil, jojoba and vitamin E work together condition skin for a radiant glow. When your skin needs a little extra attention, Aloe Moisturizing Lotion has everything you need to restore and revitalize.",
     shortDescription: "Silky smooth texture that locks in moisture",
-    image: "",
+    image: "/images/products/aloe-moisturizing-lotion.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1228,7 +1228,7 @@ const PRODUCTS = [
     name: "Forever Aloe Scrub",
     description: "Gentle scrubbing power with the nourishing comfort of aloe vera. Only Forever can bring you such a gentle and refreshing exfoliator with the skin conditioning benefits of pure aloe vera gel. There's a powerful secret inside every tube of Forever Aloe Scrub™ - pure aloe jojoba beads. These unique beads gently scrub away dead skin cells and debris that accumulate in the pores of your skin. When you start using Forever Aloe Scrub™, it won't take long for you to notice radiant, healthier-looking skin. The rich exfoliation process also clears the way for your skin's own renewal process and prepares your skin for your favorite Forever moisturizer. Use Forever Aloe Scrub™ two or three times a week on your body to reveal the kind of luminescence you just won't find with any other exfoliator. We added natural exfoliator has none of the drying or damaging effects of today's synthetic cleansers. The aloe vera used in Forever Aloe Scrub™ is carefully grown at our own fields, hand-harvested and hand filleted to ensure only the freshest, highest quality inner leaf gel is used in every tube of this incredible exfoliator.",
     shortDescription: "Gentle scrubbing power with the nourishing comfort of aloe vera",
-    image: "",
+    image: "/images/products/forever-aloe-scrub.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1254,7 +1254,7 @@ const PRODUCTS = [
     name: "R3 Factor",
     description: "Restore your skin's youthful glow. Help your skin retain its natural moisture, restore its resilience and renew its appearance with R3 Factor™. This rich combination of stabilized aloe vera gel, soluble collagen and alpha-hydroxy acids, fortified with vitamins A and E, is such vital to healthy skin. Vitamin E is a powerful antioxidant, while vitamin A helps in the maintenance of healthy skin and is known as the cell renewal vitamin for its effect on skin conditions. Alpha hydroxy acids (AHAs) come from natural plant sources and are also called fruit acids. Together, these fruit acids are exfoliants that loosen dead cells from the skin's surface by dissolving the natural glue-like substances and releasing dead skin cells. These cells create a barrier to moisturizing creams, so getting rid of dead cells evenly means that fresher cells are exposed in the skin's renewal process. As the skin renewal process takes place, you'll experience the full benefits of R3 Factor™ in as little as 21 days. Fruit acid creams have been called the most important skincare agents of the decade. By combining AHAs with soothing aloe, R3 Factor Skin Defense Creme provides a first line of defense in fighting the harsh effects of time to preserve your skin's youthful glow.",
     shortDescription: "Restore your skin's youthful glow",
-    image: "",
+    image: "/images/products/r3-factor.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1278,7 +1278,7 @@ const PRODUCTS = [
     name: "Aloe Vera Gelly",
     description: "The very best from our fields to you. Aloe vera is a powerful plant that has been revered for centuries to aid in the soothing of minor skin irritations. Many households kept aloe vera nearby to serve as a 'burn plant' because the inner leaf gel is soothing on minor burns, including sunburns. Forever's Aloe Vera Gelly is a back-to-basics formula that embraces the power of aloe in its purest form. The quality of aloe vera used makes all the difference and our aloe is the first of its kind to receive the International Aloe Science Council (IASC) certification for purity and potency. It takes a lot of effort to earn such a prestigious designation and we're incredibly proud of the work we do to bring you the very best aloe products, and Aloe Vera Gelly is no exception. Every leaf is hand harvested and filleted by hand to preserve the precious gel contained within every plant. You'll know the difference as soon as you start using Forever's Aloe Vera Gelly. Perfect for any skin type, it absorbs readily into skin to soothe skin while moisturizing and conditioning. This thick, translucent gel is almost identical to aloe vera's inner leaf so you know you're getting the best of aloe, just as nature intended.",
     shortDescription: "The very best from our fields to you",
-    image: "",
+    image: "/images/products/aloe-vera-gelly.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1304,7 +1304,7 @@ const PRODUCTS = [
     name: "Aloe Sunscreen",
     description: "Full-spectrum protection that locks in moisture with skin-soothing aloe. Soak in those beach vibes without letting the sun's harmful rays damage your skin. Whether you're heading to the surfboard or heading out for a day at the park, Aloe Sunscreen has your whole family covered. With Aloe Sunscreen, you can go anywhere the sun is shining thanks to your skin's SPF 30 protection that blocks against UVA and UVB rays. UVA rays make up 95% of the radiation that reaches Earth. These rays penetrate the skin more deeply and damage skin's DNA, playing a key role in the aging process and the formation of wrinkles. UVB rays are more damaging to the skin's outer layers and cause more damage than UVA in some cases. They are the primary cause of skin reddening and sunburn. Aloe Sunscreen features a breakthrough blend that includes natural non-nanosized zinc oxide with advanced coating technology. It applies easily, offers superior sun protection without feeling sticky or leaving residue behind. But it isn't just advanced sun blocking technology that makes Aloe Sunscreen such a powerful product. Pure aloe vera from Forever's own fields nourishes the skin, locks in moisture and soothes. Only the highest quality inner leaf gel is used to comfort and defend your skin. We've ramped up the skin-shielding power even further with vitamin E, which combats free radical damage, softens and penetrates deeper for greater moisturization. Aloe Sunscreen is water resistant for 80 minutes. Get the full protective effect by applying generously and every 2 hours when you're out in the sun. Whether you're climbing high toward a mountaintop or enjoying a relaxing weekend cookout, rest assured you can soak in the sun with confidence knowing the power of Aloe Sunscreen is keeping your whole family protected.",
     shortDescription: "Full-spectrum protection that locks in moisture with skin-soothing aloe",
-    image: "",
+    image: "/images/products/aloe-sunscreen.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1330,7 +1330,7 @@ const PRODUCTS = [
     name: "Sonya refreshing gel cleanser",
     description: "The latest in cleansing. You'll notice from the moment the cooling gel touches your skin that this feels different. All bubble, leave-your-skin-tight-feeling cleansers – you've met your match! Our aloe gel, bolstered with worldwide ingredients, makes for the latest and best way to cleanse your face and body in the morning and evening for a gentle and soothing experience. Apple amino acids and desert date extract enrich the soft lather of refreshing gel cleanser to support combination skin. Acacia concinna fruit extract helps remove dead cell build-up and makeup for a thorough, but soft cleansing experience. Refreshing gel cleanser not only uses cleansing agents, but also moisturizing agents like cold pressed baobab oil from trees in Senegal. This tree, also know as 'the tree of life' to natives, is known to live over 500 years. The strength and longevity of this tree makes it an excellent extract to boost our formula. Move over traditional cleansers! Sonya refreshing gel cleanser has a breakthrough system that will have your skin feeling smooth and clean after every wash. Use as part of the Sonya™ daily skincare system for optimal results.",
     shortDescription: "The latest in cleansing",
-    image: "",
+    image: "/images/products/sonya-refreshing-gel-cleanser.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1354,7 +1354,7 @@ const PRODUCTS = [
     name: "Sonya illuminating gel",
     description: "Make your skin glow. Licorice root and a unique blend of green and brown algae help to even skin tone and blur the appearance of large pores. This gentle blend is paired with liposomes to ensure the benefits get delivered to your skin right where they are needed. We also added red deer flower extract to help reduce the appearance of large pores. Another reason illuminating gel is not like anything else available on the market is a unique combination of Aphanizomenon flos-aquae and bacacarissea root, glycyrrhiza glabra root, morus alba root and artemisia capillaris flower extract, zizyphus jujuba fruit extract. These oriental plants are known for their ability to even and brighten and deliver flawless skin tone. Your improved skin will reflect a soft, smooth texture and emit a healthy glow with envious results. Use as part of the Sonya™ daily skincare system to control oil and deliver moisture where your skin needs it most.",
     shortDescription: "Make your skin glow",
-    image: "",
+    image: "/images/products/sonya-illuminating-gel.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1378,7 +1378,7 @@ const PRODUCTS = [
     name: "Sonya Refining Gel Mask",
     description: "Real Beauty Sleep. To make the most of your sleep, we infused this gel with a bounty of botanicals, including: carrot seed oil, artemisia capillaris flower and soybean oil. As the cool gel quickly absorbs into your skin, you'll feel the moisturizing effect of our formula. Aphanizomenon flos-aquae moisturizers like: apple fruit extract, clover flower extract that will leave your skin feeling soft with a youthful glow. Sasa quelpaertensis (Korean bamboo) extract, and licorice root, which has been used for over 3000 years, provide antioxidant support in this formula. This high-quality blend moisturizes your skin while you sleep, without leaving a greasy after-feel. By using it only 2-3 times a week, you'll wake up to skin that looks brighter, younger and more balanced. Use it as part of the Sonya™ daily skincare system for optimal results.",
     shortDescription: "Real Beauty Sleep",
-    image: "",
+    image: "/images/products/sonya-refining-gel-mask.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1402,7 +1402,7 @@ const PRODUCTS = [
     name: "Sonya Soothing Gel Moisturizer",
     description: "A hydra-infused moisture Carrier. You've never felt a lotion like this before. Soothing gel moisturizer looks like a lotion, but this gel holds more water than your skin. Over 10 natural plant extracts and oils, including jojoba esters and olive oil, help skin feel hydrated and work to soothe skin from the elements. Fruit glucan extracted from mushrooms has been added to this unique formula to soothe the skin and even skin tone. We also added anti-aging ingredients like linoleic acid and hydrolyzed collagen, scientifically advanced to go into the skin where it's needed most and phytic acid, a powerful support for combination skin, to improve the look of your complexion. To finish the formula, we infused it with orange peel oil, mandarin orange peel oil, roman chamomile flower oil, geranium flower oil and bergamot fruit oil to leave your skin feeling refreshed, making this your new favorite all-around daily moisturizer. Gently massage into skin on face and neck twice a day in the morning and evening, except when using the refining gel mask. Use it as part of the Sonya™ daily skincare system for optimal results.",
     shortDescription: "A hydra-infused moisture Carrier",
-    image: "",
+    image: "/images/products/sonya-soothing-gel-moisturizer.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1425,7 +1425,7 @@ const PRODUCTS = [
     name: "infinite by Forever hydrating cleanser",
     description: "Soothing cleanser for softer, hydrated skin. infinite by Forever™ is a fragrance-free, hydrating cleanser that harnesses the power of aloe vera, coconut and apple to melt away dirt, oil and makeup leaving behind a delicate scent of moisture for skin that feels soft and soothed. It's believed that the apple tree was the earliest to be cultivated. The juice has lived through this history fueled by vitamin C, known to strengthen skin's barrier and limit free radical damage and change for thousands of years. We harnessed two key components of this vitamin–ascorbic acid and malic acid–to provide your skin with strong protection against the effects of aging. Mild, moisturizing and milky, this cleanser uses hypoallergenic coco fatty acids to suspend your skin's oils, so they can be carefully and gently washed away from your skin – leaving your face soft to the touch without feeling dry. A key characteristic of youthful skin is being well hydrated and healthy. The age-minimizing cleanser assists your skin's barrier function to fight against tightness and dryness. Bountiful amounts of linoleic acid and vitamin E, found in sunflower seed oil, support skin's lipids and help break down dirt and debris. Don't just wash away dirt and makeup, help your skin look and feel younger to the touch while laying a strong foundation for the rest of your anti-aging routine with infinite by Forever™ hydrating cleanser.",
     shortDescription: "Soothing cleanser for softer, hydrated skin",
-    image: "",
+    image: "/images/products/infinite-hydrating-cleanser.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1451,7 +1451,7 @@ const PRODUCTS = [
     name: "infinite by Forever firming serum",
     description: "Target aging from the outside with this breakthrough formula. This potent elixir provides clear results. infinite by Forever™ firming serum is a lightweight and fast absorbing liquid designed to help reduce the appearance of fine lines and wrinkles while restoring skin's natural firmness and elasticity. The collagen power of Forever Alpha-E Factor is fueled by anti-aging powerhouse vitamin E, which pulls double duty by fighting free radicals while promoting soft and radiant skin. This nourishing formula boosts the power of aloe from our own fields with a clinically tested ingredient, trifluoroacetyl tripeptide-2. It works by supporting this single ingredient significantly improves skin elasticity and is known to combat progerin, a harmful protein that increases as you age and wreaks havoc on your skin. By mimicking natural cell processes, this three-amino acid peptide improves the feel of skin's firmness and reduces the look of fine lines and wrinkles. But we didn't stop there. Paired with hydrolyzed sodium hyaluronate, a natural key ingredient, to support moisture and skin conditioners, firming serum is scientifically formulated so that aloe achieves its optimal benefits to soothe and smooth skin. Yeast extract helps support collagen synthesis and natural skin defenses to reduce the appearance of uneven skin tone while whey protein revitalizes the skin by increasing its smoothness, firmness and thickness. This advanced fragrance free formula is a skin scientist's dream bolstered with the power of nature and the most advanced laboratory findings to help you look and feel your best.",
     shortDescription: "Target aging from the outside with this breakthrough formula",
-    image: "",
+    image: "/images/products/infinite-firming-serum.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1476,7 +1476,7 @@ const PRODUCTS = [
     name: "infinite by Forever restoring crème",
     description: "The best of science and nature for younger, smoother skin. infinite by Forever™ restoring crème absorbs fast and leaves skin feeling incredibly smooth with saturation of nature's best conditioning ingredients. We've combined the best of science and nature to help you gain an advantage in the aging game with firming skin while vitamin B3 and beet root even out tone and texture to support a youthful complexion. Powerful botanical ingredients like acai and pomegranate provide antioxidant support while leaving skin feeling moisturized and smooth. The unique running hamni plant, native to Australia and Morocco shows real promise that when combined with squalane, jojoba esters, glycolipids and beeswax helps with moisturizing properties and help restoring crème sweep across your skin. An anti-aging essential oil blend of lavender, patchouli, eucalyptus, lime and orange-peel support aloe to replenish and rejuvenate parched skin. To finish off this moisturizing powerhouse, we've added the latest chemistry to provide a new sugar structure that improves skin's water barrier and retention. As a finishing touch, infinite by Forever™ restoring crème seals in all of the powerful benefits to keep your skin nourished and younger looking.",
     shortDescription: "The best of science and nature for younger, smoother skin",
-    image: "",
+    image: "/images/products/infinite-restoring-creme.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1500,7 +1500,7 @@ const PRODUCTS = [
     name: "Aloe Activator",
     description: "Moisturize, refresh and soothe with the power of aloe. With over 98% aloe vera gel, aloe activator leaves skin feeling refreshed and soothed from the moment it touches your face. Aloe is ideal for sensitive skin and its many essential components like vitamins A, C and E make aloe activator a perfect addition to any skin care regimen. Aloe is paired with allantoin, which is not only an effective moisturizer, but also a perfect complement to gently soften and smooth skin. Of course, it's the quality of the aloe that makes all the difference. Forever's aloe activator is made with pure inner-leaf aloe vera from our own fields. Every leaf is hand harvested, hand filleted and packaged within hours to ensure maximum freshness and potency. Aloe activator is an enriching moisturizer, containing enzymes, amino acids and polysaccharides. This step in your daily beauty ritual may become your new favorite, as it not only feels good to apply, but the after-effects will leave your skin looking and feeling better. Aloe activator is gentle enough for use on the entire face, even around the eyes. Use it as a moisturizer and refresher on its own.",
     shortDescription: "Moisturize, refresh and soothe with the power of aloe",
-    image: "",
+    image: "/images/products/aloe-activator.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
@@ -1525,7 +1525,7 @@ const PRODUCTS = [
     name: "Balancing Toner",
     description: "Supports skin's pH balance. Does your skin need some extra attention after cleansing? Forever's balancing toner is designed to ensure all dirt and debris is washed off, while minimizing the appearance of pores and adding extra hydration, making it ideal for use between cleansing and moisturizing. Balancing toner provides an exclusive blend of seaweed extract and sodium hyaluronate to moisturize and soften skin while supporting a youthful appearance. The addition of cucumber extract adds another layer of soothing hydration while promoting improved skin tone and texture, thanks to naturally-occurring lignans. White tea extract is a rich antioxidant with a high polyphenolic content that works with aloe to balance fluctuations of the skin and fight free radicals. To further supercharge this powerful formula, we used hyaluronic acid, which has been called a molecular sponge because of its water attracting abilities. Only the freshest, purest aloe from our own fields is used in balancing toner to ensure only the finest, most potent ingredients refresh and nourish your skin. Every aloe plant is carefully nurtured, hand harvested and hand filleted to extract only pure, powerful inner-leaf gel. Notice a profound difference in the way you skin looks and feels when you add balancing toner to your routine!",
     shortDescription: "Supports skin's pH balance",
-    image: "",
+    image: "/images/products/balancing-toner.png",
     category: "Skincare",
     categoryId: "skincare",
     features: [
