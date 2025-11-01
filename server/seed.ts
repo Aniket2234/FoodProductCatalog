@@ -1574,7 +1574,7 @@ const PRODUCTS = [
     name: "Aloe Avocado Face & Body Soap",
     description: "Gentle cleansing that leaves skin soft and supple. Clean, healthy skin is the foundation of natural beauty. And there's no better way to achieve that beauty than with natural ingredients like pure avocado oil and aloe vera from Forever's own fields. Our Aloe Avocado Face & Body Soap moisturizes as it cleans, leaving you with softer, smoother and more radiant skin. Avocados are a nutrient-dense fruit containing many beneficial vitamins and minerals, including vitamins A, C and E. Avocado's high fat content creates a rich base for our soap and helps even dry skin feel smooth after cleansing. Aloe Avocado Face & Body Soap contains hand harvested, pure aloe vera to help condition and soothe, leaving your skin feeling moisturized all day long. Forever's Aloe Avocado Face & Body Soap smoothes, nourishes and moisturizes without irritation, even for those with sensitive skin. Gentle enough for your face or your entire body, the freshly-picked gentle scent will help wake you up in the morning and the softness from Aloe Avocado Face & Body Soap will last throughout the day. For more than 40 years, Forever has sought out the highest quality ingredients to provide you with products that bring science and nature together for skin that looks and feels beautiful.",
     shortDescription: "Gentle cleansing that leaves skin soft and supple",
-    image: "",
+    image: "/images/products/aloe-avocado-soap.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1600,7 +1600,7 @@ const PRODUCTS = [
     name: "Aloe-Jojoba Conditioner",
     description: "Softness and shine with a hydrating boost. A good conditioner does all the work when it comes to getting the most out of your hair routine. It softens, smooths and makes hair more manageable. Forever's Aloe-Jojoba Conditioner does all this while nourishing deeply and boosting hair and scalp hydration without added sulfates. Our lightweight formula is perfect for daily use and includes three different oils to lock in moisture without weighing hair down. Jojoba oil is rich in natural fats to strengthen hair and promote thickness. Argan oil dubbed 'liquid gold of Morocco,' nourishes hair with the antioxidant power of vitamin E. We also added rosehip oil to keep hair soft and moisturized while fortifying with vitamins C, E and B. The backbone of Aloe Jojoba Conditioner is stabilized aloe vera gel from our own fields. Our inner leaf aloe vera contains 75 active components that help this conditioner soften the scalp and bring out your hair's natural shine. Forever Aloe Jojoba Conditioner pairs perfectly with Aloe Jojoba Shampoo to improve combability of hair while smoothing the strands for easy styling. This soothing conditioner features the same invigorating fragrance as our Aloe Jojoba Shampoo: tropical fruit, sugarcane and cream and melon. Our formula is gender and age neutral, making it perfect for the entire family. Give your hair the very best of what it has to offer with Forever Aloe-Jojoba Conditioner.",
     shortDescription: "Softness and shine with a hydrating boost",
-    image: "",
+    image: "/images/products/aloe-jojoba-conditioner.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1627,7 +1627,7 @@ const PRODUCTS = [
     name: "Aloe-Jojoba Shampoo",
     description: "Deep cleansing and nourishing power for all hair types. Made with pure inner leaf aloe vera and hair strengthening jojoba oil, Forever's Aloe-Jojoba Shampoo is the perfect partner to keep your hair in the best it can be. Enjoy the refreshing fragrance of a tropical fruit medley with hints of sweet cream as the rich natural lather helps easily rinse away dirt and oil. With no added sulfates, Aloe-Jojoba Shampoo helps maintain your scalp's moisture balance while keeping it soft and manageable. Forever's own stabilized aloe vera gel not only helps your hair retain moisture but works as a natural emulsifying agent that leaves hair feeling clean and renewed with a beautiful shine. In addition to cleansing your hair, we've added jojoba oil, which is rich in natural fats to promote strength and thickness. This lightweight oil is nourishing, soothing and gentle on the scalp. Forever boosted the fortifying power of this shampoo even further with argan oil, vitamin B5 and rose hip oil together. These potent ingredients provide nutrients, unsaturated fatty acids and antioxidants to support healthy hair and help keep it moisturized and soft. Forever's Aloe-Jojoba Shampoo is perfect for your whole family. Experience the feeling of deep clean that leaves your hair looking and feeling its absolute best. To achieve optimal results, follow your shampoo with Forever's Aloe-Jojoba Conditioner!",
     shortDescription: "Deep cleansing and nourishing power for all hair types",
-    image: "",
+    image: "/images/products/aloe-jojoba-shampoo.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1653,7 +1653,7 @@ const PRODUCTS = [
     name: "Aloe Ever-Shield",
     description: "All-day odor protection with the soothing power of aloe. Fresh-scented and gentle on sensitive skin, Aloe Ever-Shield™ offers all-day protection against underarm odor with the soothing power of aloe. Aloe Ever-Shield™ is made with a high content of pure inner leaf aloe vera gel from Forever's own fields. The rich texture combined with the natural soothing power of aloe allows Aloe Ever-Shield™ to glide on smoothly and it won't stain your clothes! Gentle on skin, you can apply it directly after showering without irritation. The clean, pleasant aroma is never overpowering. Maintain that fresh feeling all day, even when the temperature rises and pressure is on. Tackle the day with confidence knowing Aloe Ever-Shield™ is here to keep you feeling fresh and clean.",
     shortDescription: "All-day odor protection with the soothing power of aloe",
-    image: "",
+    image: "/images/products/aloe-ever-shield.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1679,7 +1679,7 @@ const PRODUCTS = [
     name: "Forever Bright Toothgel",
     description: "Advanced teeth cleaning for the whole family. Forever Bright™ toothgel combines aloe vera with natural ingredients for clean teeth, fresh breath and refreshing flavor. Our formula is fluoride-free so your whole family can enjoy the combination of natural peppermint and spearmint with a frothy texture that will leave your mouth feeling fresh and clean. This innovative toothgel is made using stabilized aloe vera gel from Forever's own fields and can help you fight plaque as part of a regular brushing routine. Forever Bright™ also contains bee propolis, which has been shown to help promote gum health and prevent bad breath. Forever conducted years of research, collaborating with scholars and dentists to create a perfect aloe-based formula that is safe and effective for the entire family. With no animal by-products, Forever Bright™ is a great option for vegetarians. Brushing your teeth twice a day and maintaining a balanced diet is the best way to ensure your teeth look and feel great. Our toothgel is the perfect addition to your daily routine. Treat your mouth to the invigorating sensation and cleansing power of Forever Bright™.",
     shortDescription: "Advanced teeth cleaning for the whole family",
-    image: "",
+    image: "/images/products/forever-bright-toothgel.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1704,7 +1704,7 @@ const PRODUCTS = [
     name: "Dream by Forever",
     description: "For the Classic Beauty inside out. Absolute sophistication embodies the Dream by Forever Deodorant. She radiates a new kind of beauty that shows up in a timeless manner. She is authentic and true to oneself and others. She is consistent and focused who inspires and leads others. She is what you stand for, trust and have accomplished. Indeed, refined, Dream by Forever is the fragrance of a woman with dreams, who is accomplished in her own way and is accustomed to shine. Dream by Forever illuminates the sophistication in women. This fragrance is for women who have big dreams, are graceful, confident, consistent, focused, inspiring, accomplished and outstanding. It is for each one of you and that's what keeps you dazzling. A radiant blend of flowers and oriental notes along with moisturizing and nourishing aloe vera. Dream by Forever has naturally derived ingredients. A no gas deodorant which lasts longer up to 8 - 9 hours. Dream big and Shine on with this classic fragrance.",
     shortDescription: "For the Classic Beauty inside out",
-    image: "",
+    image: "/images/products/dream-by-forever.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1735,7 +1735,7 @@ const PRODUCTS = [
     name: "Desire by Forever",
     description: "For a man who desires to be confident, accomplished and multi-dimensional. Desire by Forever is for a man with confidence. One who dares to be challenged – dynamic, daring, charismatic. For a man who has a constant desire to better himself, surpass competition. A strong man in tune with the world. A man of integrity, the multi-dimensional man of the new century – confident and accomplished. Desire embrasies the confidence of a man in today's day and age. This fragrance reflects the spirit of a man who has a desire for freedom, liberty and strength. Desire man is a multi-dimensional man - confident and accomplished who dares to be challenged and desires to excel forever. Desire by Forever is a no gas deodorant spray which lasts for up to 8 - 9 hours. It belongs to Oriental, woody and fruity family.",
     shortDescription: "For a man who desires to be confident, accomplished and multi-dimensional",
-    image: "",
+    image: "/images/products/desire-by-forever.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1766,7 +1766,7 @@ const PRODUCTS = [
     name: "Aloe Liquid Soap",
     description: "A powerful, gentle and versatile cleanser for the whole family. Cleanse and maintain skin's moisture with Forever's Aloe Liquid Soap. Our creamy, pearlescent formula cleans and nourishes to leave your skin feeling fresh and renewed. Whether you wash your hands at the sink or in the shower, Aloe Liquid Soap harnesses the power of aloe with other quality ingredients to deliver a superior cleansing experience for the entire family. By combining the best of nature with pure aloe vera from our own fields, Forever has created a liquid soap that leaves skin feeling soft and clean. Aloe soothes and softens, while argan oil delivers vitamin E and natural fatty acids to condition and promote healthy skin. This extraordinary ingredient is known as 'liquid gold of Morocco' and is carefully harvested from the fruit of the tree. We also boosted the skin enhancing benefits of Aloe Liquid Soap with jojoba esters and cucumber fruit extract to help maintain moisture. The soothing properties combine perfectly with aloe vera to gently cleanse and leave skin feeling smooth and soft. But the benefits don't stop there. We've added Arnica fruit extract, harvested from a yellow flower that grows in the mountains, to help stimulate skin and leave it feeling fresh and rejuvenated. Top notes of citrus mingle with a backdrop of woodsy and floral aromas like cinnamon spice, cedar leaf and rose for a fragrance that enhances the feeling of freshness. With a combination of natural oils, extracts and pure aloe vera, Aloe Liquid Soap has just what your skin needs to feel clean, nourished and soft.",
     shortDescription: "A powerful, gentle and versatile cleanser for the whole family",
-    image: "",
+    image: "/images/products/aloe-liquid-soap.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1792,7 +1792,7 @@ const PRODUCTS = [
     name: "Aloe Body Wash",
     description: "Gentle, powerful cleansing with skin-conditioning aloe. Let the best of what nature has to offer nourish and cleanse your skin with Forever's new Aloe Body Wash. This rich, free-rinsing formula features powerful yet gentle cleansing with skin conditioning ingredients that will wash away dirt and oil leaving your skin looking and feeling refreshed. Aloe Body Wash is pH balanced to help retain skin's moisture and promote hydration. Key ingredient, aloe vera, aids anti-aging by promoting moisturizing and collagen production while vitamin C and E support healthy-looking skin. Our formula features a rich, inviting fragrance of woods, amber and a subtle blend of herbs for a fresh and understated aroma. You'll notice something a little different about Aloe Body Wash's unique color. The pleasing shade of light green comes from natural copper chlorophyll! You'll feel the difference right away as Aloe Body Wash forms into a nice, creamy foam with rich color. The thick lather makes a little bit of moisture. The gentle cleansing is made possible with ingredients like argan oil, arnica flower extract and hydrolyzed jojoba esters, which help soften skin while increasing hydration and smoothness. Don't reach for another body wash that leaves your skin feeling dry or stripped of nutrients. With Aloe Body Wash, you'll get the powerful cleansing you're looking for with the perfect blend of ingredients to leave your skin looking and feeling healthy and refreshed.",
     shortDescription: "Gentle, powerful cleansing with skin-conditioning aloe",
-    image: "",
+    image: "/images/products/aloe-body-wash.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1819,7 +1819,7 @@ const PRODUCTS = [
     name: "Aloe Cooling Lotion",
     description: "Recharge tired muscles and joints with invigorating ingredients. Refresh tired muscles and joints after a long day or challenging workout with Aloe Cooling Lotion. Our light, invigorating formula provides an instant cooling sensation, both revitalizing hard-working muscles and promoting recovery. Perfect to put in your gym bag or on your nightstand, Aloe Cooling Lotion contains uplifting menthol, eucalyptus and Methylsulfonyl Methane, or MSM – an organic compound which is the third most abundant mineral in our body. Let the power of menthol, inner leaf aloe and other natural ingredients support your active lifestyle. Experience a relaxed sensation by massaging Aloe Cooling Lotion into your skin at the end of a long day or post-workout.",
     shortDescription: "Recharge tired muscles and joints with invigorating ingredients",
-    image: "",
+    image: "/images/products/aloe-cooling-lotion.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1848,7 +1848,7 @@ const PRODUCTS = [
     name: "Forever Bhringraj Hair Fall Control Oil",
     description: "Forever Bhringraj Hair Fall Control Oil blends the ancient wisdom of Ayurveda with modern hair care technology to deliver a holistic solution for all your hair needs. At its core, this premium oil is carefully formulated to address common hair concerns while promoting overall scalp and hair health. With a blend of 22 natural ingredients, it boasts properties. It helps fight frizz, restores moisture, and enhances the shine of your hair. Enriched with Bhringraj, Aloe Vera, Neem, Tea Tree Oil, Amla, and Grapeseed Oil, this premium hair oil provides comprehensive benefits including strengthening hair to reduce breakage, promoting hair growth, while Aloe Vera restores the natural pH balance of the scalp. Neem cleanses and strengthens the hair follicles to help boost hair thickness. Amla treats dandruff with its antifungal properties. Tea Tree Oil helps prevent scalp infections. Amla treats dandruff and provides essential nutrients to the hair. This product has been clinically tested and approved. 100% agreed reduction in hair fall. 100% agreed it promotes hair growth. 97% agreed it makes hair stronger. 100% agreed strengthens hair to reduce breakage. 100% agreed it rinse of well. 100% agreed on scalp irritation. Forever Bhringraj Hair Fall Control Oil is an exceptional choice for those seeking a natural and effective hair care solution.",
     shortDescription: "Forever Bhringraj Hair Fall Control Oil",
-    image: "",
+    image: "/images/products/forever-bhringraj-oil.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1880,7 +1880,7 @@ const PRODUCTS = [
     name: "Forever Alofa Fine Fragrance",
     description: "A crisp, delicately sweet fusion for an alluring warm floral scent. Envelop your senses with the power and love of the Samoan people in this exclusive fragrance that pays tribute to Forever's Founder, Rex Maughan, and his deep connection with the Samoan Islands. As a Samoan word, alofa means love — a word woven into the fabric of Forever by Rex, who often said, 'The power of Forever is the power of love.' Forever Alofa™ Fine Fragrance delivers this sense of love in an alluring scent crafted and blended exclusively for Forever. The complex fragrance features a carefully selected combination of botanicals that captivate. Floral notes like sweet jasmine intertwine with crisp citrus and warm aromas of sandalwood. The result is a unique scent that captures the essence of elegance. Beyond its fragrant appeal, the bottle delights too. Forever Alofa is housed in a thoughtfully designed bottle featuring cultural, traditional artwork designed by a Samoan artist that represents the meaning for alofa. This expertly crafted fragrance provides a beautiful finishing touch for everyday wear or a special occasion. Feel the power of love surround you with Forever Alofa.",
     shortDescription: "A crisp, delicately sweet fusion for an alluring warm floral scent",
-    image: "",
+    image: "/images/products/forever-alofa.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
@@ -1902,7 +1902,7 @@ const PRODUCTS = [
     name: "Forever Malosi Fine Fragrance",
     description: "An intriguing woodsy scent with refreshing, spiced nuances. Envelop your senses with the power and love of the Samoan people in this exclusive fragrance that pays tribute to Forever's Founder, Rex Maughan, and his deep connection with the Samoan Islands. As a Samoan word, malosi means power — a word woven into the fabric of Forever by Rex, who often said, 'The power of Forever is the power of love.' Experience this power through Forever Malosi™ Fine Fragrance, a distinctive, sophisticated scent crafted and blended exclusively for Forever. The bold fragrance features a carefully selected combination of botanicals that captivate. Spiced woodsy notes like bergamot and sandalwood mingle with the refreshing aromas of cypress and citrus. The result is a well-rounded scent perfect for everyday wear or a formal night on the town. Beyond its fragrant appeal, the bottle delights too. Forever Malosi is housed in a thoughtfully designed bottle featuring cultural, traditional artwork designed by a Samoan artist that represents the meaning for malosi. When you apply Forever Malosi, you're choosing power and confidence as you go about your day or night. This expertly crafted fragrance is an enticing addition to your daily routine that provides an alluring finishing touch.",
     shortDescription: "An intriguing woodsy scent with refreshing, spiced nuances",
-    image: "",
+    image: "/images/products/forever-malosi.png",
     category: "Personal Care",
     categoryId: "personal-care",
     features: [
