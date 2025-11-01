@@ -218,6 +218,78 @@ const PRODUCTS = [
     ingredients: "Water, Sugar, Lemon Juice Concentrate (1.15%)^, Carbonating agent (INS 290), Energy Premix [Taurine, Caffeine (from natural source)‡‡ (0.03%), Inositol, Vitamins (B3, B6, B2, B12), Dextrose Monohydrate], Acidity Regulators (INS 331(iii), INS 330), Nature-Identical Flavouring Substances (Lemon), Preservative (INS 211), Stabilizer (INS 445, INS 418), Permitted synthetic food colour ( INS 102). ^Equivalent to 8.85% Fruit.",
     usage: "75mg/serving size (250ml) Consume not more than 500ml per day. Not recommended for children, pregnant or lactating women, persons sensitive to caffeine. 250ml"
   },
+  {
+    id: "207",
+    name: "Forever Bee Honey",
+    description: "There's only one thing you'll find in a bottle of Forever Bee Honey and that's pure sweetness from mountain bees that take a little longer to make their honey and this a fine wine, the added time lends our honey a more rich and complex flavor that's smooth, dark and delicious. Honey is a natural sweetener that has long been revered for its healthy and nutritional properties. In the calm and peaceful countryside where we harvest our honey, bees gather sweet nectar from lavender and rosemary or groves of orange to harvest the sweet nectar from the blossoms. As a result, you'll experience some of those notes in Forever Bee Honey, alongside essence of sacred spice. The flavors are so layered and complex, you'll discover something new to love every time you taste it. Honeybees are incredibly productive. They produce three to four times more honey than is needed to feed the hive for winter. That's why humans have been able to harvest the nutrition of the hive for thousands of years without imperiling the amazing little bee colony.",
+    shortDescription: "A bottle of love from honeybees to you!",
+    image: "/images/products/bee-honey.png",
+    category: "Bee Products",
+    categoryId: "bee",
+    features: [
+      "Natural energy booster",
+      "100% natural",
+      "Sweet, rich and smooth",
+      "Gluten Free",
+      "Suitable for vegetarians"
+    ],
+    benefits: [
+      "Natural energy source",
+      "Rich in nutrients",
+      "Smooth and delicious flavor",
+      "Versatile sweetener"
+    ],
+    ingredients: "Honey",
+    usage: "Consume one tablespoon(21g) or more, as desired or use as a sweetener for beverages, tea and food. Store in a cool, dry place. 500 g"
+  },
+  {
+    id: "026",
+    name: "Forever Bee Pollen",
+    description: "Forever Bee Pollen packs all the power of pure bee pollen and honey for a combination of nutrition and energy straight from the hive! As they fly from blossom-to-blossom, bees pollinate plants and fuel our ecosystem. Bees ensure they get the nutrition they need to survive, which includes pollen. Harness the benefits of natural energy and stamina with Forever Bee Pollen. Our bee pollen supplement is a Forever favorite for good reason. It's an all-natural source of energy and nutrition to help power through your day and keeps your body going all day naturally. Typically, bee pollen is consumed as bland tasting granules sprinkled on food or chewed. No! Forever Bee Pollen, We've packed all that nutrition into an easy to take tablet by mixing it with smooth and delicious honey! Our bee pollen supplement is a Forever favorite for good reason. It's an all-natural source of energy and nutrition to help power through your day",
+    shortDescription: "A bottle of love from honeybees to you!",
+    image: "/images/products/bee-pollen.png",
+    category: "Bee Products",
+    categoryId: "bee",
+    features: [
+      "Energy booster",
+      "Bioactive compounds",
+      "100% natural",
+      "Gluten Free",
+      "Suitable for vegetarians"
+    ],
+    benefits: [
+      "Natural energy boost",
+      "Rich in nutrients",
+      "Supports overall wellness",
+      "Easy to take tablets"
+    ],
+    ingredients: "Bee Pollen (88.9%) [Honey, Glident [ Stearic Acid ], Royal Jelly(0.07%), Diluent [Maltodextrin]",
+    usage: "Begin by taking 1/4 tablet daily, then gradually increase intake to one tablet twice a day. Consult your physician before taking this or any other dietary supplement. 100 Tablets"
+  },
+  {
+    id: "9207",
+    name: "Forever Tulsi Van Honey",
+    description: "Experience the purity of single Flora Tulsi Honey, a natural golden elixir crafted from the nectar of blooming basil flowers. Sourced from pristine fields, this honey embodies the rich aroma and wellness benefits of tulsi, making it a perfect addition to your daily routine. Combine the essence of sacred Van Tulsi with the sweetness of honey. Immerse your senses in the aromatic notes of this rare and revered herb, while enjoying the nourishing benefits of honey. Indulge in nature's sweetness while embracing a healthier lifestyle with Forever Tulsi Van Honey. Taste the essence of tulsi in every drop!",
+    shortDescription: "A bottle of love from honeybees to you!",
+    image: "/images/products/tulsi-van-honey.png",
+    category: "Bee Products",
+    categoryId: "bee",
+    features: [
+      "Rich in anti oxidants",
+      "100% natural",
+      "Single Flora honey (Tulsi)",
+      "Gluten Free",
+      "Suitable for vegetarians"
+    ],
+    benefits: [
+      "Rich aroma and wellness benefits",
+      "Natural energy source",
+      "Perfect for daily routine",
+      "Nourishing properties"
+    ],
+    ingredients: "Honey",
+    usage: "Consume one tablespoon(21g) or more, as desired or use as a sweetener for beverages, tea and food. Store in a cool, dry place. 500 g"
+  },
 ];
 
 export async function seedDatabase() {
