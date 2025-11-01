@@ -18,7 +18,7 @@ export default function CategoryCard({ id, name, description, productCount, imag
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
