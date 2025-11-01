@@ -50,15 +50,15 @@ export default function HomePage() {
         <img
           src="/images/hero-banner.png"
           alt="Forever Living - World's Best Aloe Vera Company"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/50" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center px-4 max-w-4xl">
-            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 drop-shadow-lg" data-testid="text-hero-title">
+            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%),_0_0_20px_rgb(0_0_0_/_60%)]" data-testid="text-hero-title">
               Forever Living Products
             </h1>
-            <p className="text-lg md:text-xl text-white/95 mb-8 max-w-2xl mx-auto drop-shadow-md" data-testid="text-hero-subtitle">
+            <p className="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto [text-shadow:_1px_1px_6px_rgb(0_0_0_/_80%),_0_0_15px_rgb(0_0_0_/_50%)]" data-testid="text-hero-subtitle">
               World's Best Aloe Vera Company - Discover our complete range of natural health, wellness, and beauty products
             </p>
             <button 
