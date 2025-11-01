@@ -9,13 +9,13 @@ const CATEGORY_DATA: Record<string, any> = {
     name: "Drinks",
     description: "Our aloe vera drinks are the cornerstone of Forever Living. Harvested from our own aloe fields and processed within hours, these drinks deliver the pure inner leaf gel in its most potent form.",
     products: [
-      { id: "715", name: "Forever Aloe Vera Gel", description: "99.7% pure inner leaf aloe vera gel - Supports healthy digestion", image: "/attached_assets/image_1762015034325.png" },
-      { id: "716", name: "Forever Aloe Vera Gel TriPak", description: "Pack of 3 mini bottles for convenience - Perfect for on-the-go", image: "/attached_assets/image_1762015049202.png" },
-      { id: "734", name: "Forever Aloe Berry Nectar", description: "90.7% pure aloe with cranberries for urinary health support", image: "/attached_assets/image_1762015076944.png" },
-      { id: "777", name: "Forever Aloe Peaches", description: "84.5% pure aloe with sun-ripened peaches for added flavor", image: "/attached_assets/image_1762015094062.png" },
-      { id: "736", name: "Forever Aloe Mango", description: "86% pure aloe with delicious natural mango - Source of vitamin C", image: "/attached_assets/image_1762015161816.png" },
-      { id: "196", name: "Forever Freedom", description: "Advanced joint support with glucosamine and MSM - Natural orange flavor", image: "/attached_assets/image_1762015176460.png" },
-      { id: "83", name: "Fab Forever Active Boost Citrus", description: "Energy drink with natural caffeine from Green Coffee Extract", image: "/attached_assets/image_1762015200656.png" },
+      { id: "715", name: "Forever Aloe Vera Gel", description: "99.7% pure inner leaf aloe vera gel - Supports healthy digestion", image: "/attached_assets/Screenshot 2025-11-01 220709_1762016185353.png" },
+      { id: "716", name: "Forever Aloe Vera Gel TriPak", description: "Pack of 3 mini bottles for convenience - Perfect for on-the-go", image: "/attached_assets/Screenshot 2025-11-01 220726_1762016185354.png" },
+      { id: "734", name: "Forever Aloe Berry Nectar", description: "90.7% pure aloe with cranberries for urinary health support", image: "/attached_assets/Screenshot 2025-11-01 220753_1762016185354.png" },
+      { id: "777", name: "Forever Aloe Peaches", description: "84.5% pure aloe with sun-ripened peaches for added flavor", image: "/attached_assets/Screenshot 2025-11-01 220807_1762016185355.png" },
+      { id: "736", name: "Forever Aloe Mango", description: "86% pure aloe with delicious natural mango - Source of vitamin C", image: "/attached_assets/Screenshot 2025-11-01 220918_1762016185355.png" },
+      { id: "196", name: "Forever Freedom", description: "Advanced joint support with glucosamine and MSM - Natural orange flavor", image: "/attached_assets/Screenshot 2025-11-01 220933_1762016185356.png" },
+      { id: "83", name: "Fab Forever Active Boost Citrus", description: "Energy drink with natural caffeine from Green Coffee Extract", image: "/attached_assets/Screenshot 2025-11-01 220957_1762016185356.png" },
     ]
   },
   bee: {
