@@ -7,7 +7,7 @@ const CATEGORIES = [
     id: "drinks",
     name: "Drinks",
     description: "Pure stabilized aloe vera drinks and nutritional beverages",
-    productCount: 12,
+    productCount: 7,
     image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800&q=80"
   },
   {
