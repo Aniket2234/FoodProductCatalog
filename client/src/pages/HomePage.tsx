@@ -1,60 +1,27 @@
 import Header from "@/components/Header";
 import CategoryCard from "@/components/CategoryCard";
-
-//todo: remove mock functionality
-const CATEGORIES = [
-  {
-    id: "drinks",
-    name: "Drinks",
-    description: "Pure stabilized aloe vera drinks and nutritional beverages",
-    productCount: 7,
-    image: "/images/drinks-bg.png"
-  },
-  {
-    id: "bee",
-    name: "Bee Products",
-    description: "Natural honey, bee pollen, and propolis products",
-    productCount: 8,
-    image: "https://images.unsplash.com/photo-1587049352846-4a222e784363?w=800&q=80"
-  },
-  {
-    id: "nutritionals",
-    name: "Nutritionals",
-    description: "Premium nutritional supplements and vitamins",
-    productCount: 24,
-    image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=800&q=80"
-  },
-  {
-    id: "weight-management",
-    name: "Weight Management",
-    description: "Healthy weight management and fitness support products",
-    productCount: 10,
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
-  },
-  {
-    id: "skincare",
-    name: "Skincare",
-    description: "Natural aloe-based skincare for healthy, glowing skin",
-    productCount: 10,
-    image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80"
-  },
-  {
-    id: "personal-care",
-    name: "Personal Care",
-    description: "Essential personal care products for daily wellness",
-    productCount: 8,
-    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80"
-  },
-  {
-    id: "household",
-    name: "Household",
-    description: "Eco-friendly household and cleaning products",
-    productCount: 6,
-    image: "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=800&q=80"
-  }
-];
+import { useQuery } from "@tanstack/react-query";
+import type { CategoryType, ProductType } from "@shared/schema";
 
 export default function HomePage() {
+  const { data: categories = [] } = useQuery<CategoryType[]>({
+    queryKey: ["/api/categories"],
+  });
+
+  const { data: products = [] } = useQuery<ProductType[]>({
+    queryKey: ["/api/products"],
+  });
+
+  const categoriesWithCounts = categories.map(category => {
+    const productCount = products.filter(p => p.categoryId === category.id).length;
+    return {
+      id: category.id,
+      name: category.name,
+      description: category.description,
+      productCount,
+      image: category.image || ""
+    };
+  });
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -96,7 +63,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
-          {CATEGORIES.map((category) => (
+          {categoriesWithCounts.map((category) => (
             <CategoryCard
               key={category.id}
               {...category}
@@ -117,7 +84,7 @@ export default function HomePage() {
             <div>
               <h3 className="font-semibold mb-4">Categories</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                {CATEGORIES.map(cat => (
+                {categoriesWithCounts.map(cat => (
                   <li key={cat.id}>
                     <a href={`/category/${cat.id}`} className="hover:text-foreground transition-colors">
                       {cat.name}
