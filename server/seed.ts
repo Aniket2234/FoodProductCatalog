@@ -44,7 +44,7 @@ const PRODUCTS = [
     name: "Forever Aloe Vera Gel",
     description: "Imagine slicing open an aloe leaf and consuming the gel directly from the plant. Our Forever Aloe Vera Gel is as close to the real thing as you can get! Aloe vera has natural cleansing abilities that help the digestive tract absorb nutrients from the foods we eat into the blood stream, while promoting friendly bacteria growth. The unique polysaccharide, acemannan, and other nutrients in aloe help to support the immune system. In fact, acemannan is one of the key markers used by the IASC to indicate quality aloe vera and Forever Aloe Vera Gel has nearly double the amount required for certification!",
     shortDescription: "The power of Aloe, as nature intended",
-    image: "/attached_assets/Screenshot 2025-11-01 220709_1762016185353.png",
+    image: "/images/products/aloe-vera-gel.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -72,7 +72,7 @@ const PRODUCTS = [
     name: "Forever Aloe Vera Gel TriPak (Pack of 3 Minis)",
     description: "Imagine slicing open an aloe leaf and consuming the gel directly from the plant. Our Forever Aloe Vera Gel is as close to the real thing as you can get! Three of our aloe vera gel minis are equal to one full-size bottle and can be purchased in a TriPak. Packaged in mini bottles for convenience.",
     shortDescription: "Aloe as nature intended",
-    image: "/attached_assets/Screenshot 2025-11-01 220726_1762016185354.png",
+    image: "/images/products/aloe-vera-gel-tripak.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -99,7 +99,7 @@ const PRODUCTS = [
     name: "Forever Aloe Berry Nectar",
     description: "The refreshing zing of cranberries is paired with the sweet notes of apples for a fresh take on our aloe gel. The result is a refreshing drink that not only aids in digestion but is packed with phytonutrients and vitamins. A burst of cranberries and sweet apples provide a naturally derived, tangy flavor. Superfood cranberry packs antioxidant power shown to be 20 times higher than that of vitamin C and has proanthocyanidins that provide urinary health and support in addition to vitamin C.",
     shortDescription: "All the benefits with a beautiful berry kick",
-    image: "/attached_assets/Screenshot 2025-11-01 220753_1762016185354.png",
+    image: "/images/products/aloe-berry-nectar.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -125,7 +125,7 @@ const PRODUCTS = [
     name: "Forever Aloe Peaches",
     description: "Forever has paired the sweet, succulent taste of sun-ripened peaches with all the benefits of pure inner leaf aloe vera gel. The result is a flavorful drink that not only aids in digestion but is packed with nutrients and antioxidants. Pure stabilized inner leaf aloe vera gel is paired with juicy peach puree for a robust drink with a sweet taste that's high in vitamins, antioxidants and boasts all the nutritional benefits of aloe.",
     shortDescription: "The benefits of aloe with sun-ripened peaches",
-    image: "/attached_assets/Screenshot 2025-11-01 220807_1762016185355.png",
+    image: "/images/products/aloe-peaches.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -151,7 +151,7 @@ const PRODUCTS = [
     name: "Forever Aloe Mango",
     description: "What's better than the juicy sweetness of a perfectly ripe mango? How about combining this delicious and healthy fruit with pure aloe vera gel from Forever's aloe fields! All-new Forever Aloe Mango adds a tropical twist to our line of delicious and healthy aloe vera drinks to put the sun in your glass. Forever Aloe Mango features all the benefits of our flagship Forever Aloe Vera Gel with 86% pure aloe vera gel and an extra kick of flavor that comes from natural, tropical mango puree.",
     shortDescription: "Everything you love about aloe with delicious natural mango",
-    image: "/attached_assets/Screenshot 2025-11-01 220918_1762016185355.png",
+    image: "/images/products/aloe-mango.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -175,7 +175,7 @@ const PRODUCTS = [
     name: "Forever Freedom",
     description: "Forever Freedom has all the powerful benefits of the original Forever Aloe Vera Gel with a little something extra to keep you moving. We've carefully selected ingredients known to support healthy joints and comfortable movement. Whether you're kicking a ball across the field, reaching into a rug or tear across the finish line, reach first for a refreshing bottle of Forever Freedom for the perfect balance of nutrients to help your joints feel strong and lubricated! The aloe vera gel used in Forever Freedom is hand harvested from our own plantation and processed within hours to ensure you get the freshest, purest product to assist in nutrient absorption, support healthy digestion and provide a natural source of energy.",
     shortDescription: "Advanced joint support with all the benefits of aloe vera",
-    image: "/attached_assets/Screenshot 2025-11-01 220933_1762016185356.png",
+    image: "/images/products/forever-freedom.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
@@ -199,7 +199,7 @@ const PRODUCTS = [
     name: "Fab Forever Active Boost Citrus",
     description: "Fab Forever Active Boost Citrus is an energy drink that's made with natural ingredients so you can power up with energy that kicks in fast and lasts longer. When it feels like you're running on empty, why not harness the power of nature's fuel? Forever Active Boost Citrus has a delicious citrus flavour and natural caffeine that comes from Green coffee extracts. It's this blend of herbs that works with the other ingredients to provide long-lasting energy and alertness to help you charge up in the morning or power through an afternoon slump.",
     shortDescription: "Power your day with fast, long lasting energy from Green Coffee Extract",
-    image: "/attached_assets/Screenshot 2025-11-01 220957_1762016185356.png",
+    image: "/images/products/fab-active-boost.png",
     category: "Drinks",
     categoryId: "drinks",
     features: [
