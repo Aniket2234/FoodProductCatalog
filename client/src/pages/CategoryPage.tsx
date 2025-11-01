@@ -23,12 +23,7 @@ const CATEGORY_DATA: Record<string, any> = {
   bee: {
     name: "Bee Products",
     description: "Forever's bee products harness the natural power of the hive. Our bee pollen, royal jelly, and propolis are carefully collected and processed to preserve their natural benefits.",
-    products: [
-      { id: "bee-honey", name: "Forever Bee Honey", description: "Pure natural honey from our own beehives", image: "https://images.unsplash.com/photo-1587049352846-4a222e784363?w=400&q=80" },
-      { id: "bee-pollen", name: "Forever Bee Pollen", description: "Natural bee pollen for energy and vitality", image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&q=80" },
-      { id: "bee-propolis", name: "Forever Bee Propolis", description: "Natural immune system support from bee propolis", image: "https://images.unsplash.com/photo-1599909533588-f7d0891f08a3?w=400&q=80" },
-      { id: "royal-jelly", name: "Forever Royal Jelly", description: "Premium royal jelly for vitality and wellness", image: "https://images.unsplash.com/photo-1593000434626-c7a1e085d623?w=400&q=80" },
-    ]
+    products: []
   },
   nutritionals: {
     name: "Nutritionals",
