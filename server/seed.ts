@@ -29,6 +29,7 @@ const CATEGORIES = [
     id: "skincare",
     name: "Skincare",
     description: "Pamper your skin with our natural skincare line featuring aloe vera and other botanicals for healthy, glowing skin.",
+    image: "/images/skincare-category-bg.png",
   },
   {
     id: "personal-care",
@@ -858,6 +859,215 @@ const PRODUCTS = [
     ],
     ingredients: "Pea Protein Isolate (59.5%), Pumpkin Protein (5.56%), Maltodextrin, Stabilizer [INS 412, INS 414], Fructooligosaccharides, Medium Chain Triglycerides, Natural Flavour (Vanilla), Anti-caking Agent [INS 551, INS 341(iii)], Sweetener [INS 960], Apple Powder (0.11%), Sucralose, Colour [INS 150d], Sequestrant [INS 516]. Contains Nut.",
     usage: "Blend or mix 1 level scoop with 240 mL of water or plant-based beverage and mix well. One serving (25g) per day. A health supplement is not to be used as a substitute for a varied diet. Do not exceed the stated recommended daily usage. 400g"
+  },
+  {
+    id: "561",
+    name: "Awakening Eye Cream",
+    description: "Awakening eye cream combines patented ingredients with peptide technology to improve and smooth the sensitive eye area, visibly reducing the appearance of lines, wrinkles and dark circles. This groundbreaking formula helps with normal collagen formation to promote youthful skin hydration and elasticity. Featuring advanced collagen, awakening eye cream improves skin smoothness, resulting in plumper, firmer skin around the eye for a total revitalizing makeover! Awakening eye cream also contains a special peptide that has been shown to reduce the appearance of eye puffiness and dark circles in as little as 15 days! A cutting-edge ingredient, albizia julibrissin bark extract, is shown to have a lifting action on the sagging upper eye lid and helps revitalize the delicate area around the eye for a total anti-aging and perking effect. Blur the look of crow's feet and fade the appearance of dark circles with awakening eye cream. Instead of dry, puffy eye skin, eyes appear more rested, alert and rejuvenated. All these powerhouse ingredients make the most advanced eye cream to allow your beauty to shine. Have striking eyes that look brighter and younger with awakening eye cream.",
+    shortDescription: "Beautify the eye.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Diminishes the appearance of puffiness and dark circles",
+      "Significantly reduces appearance of wrinkles",
+      "Eyes appear more rested, alert and rejuvenated",
+      "Gluten Free",
+      "Suitable for vegetarians"
+    ],
+    benefits: [
+      "Reduces appearance of eye puffiness",
+      "Diminishes dark circles",
+      "Smooths fine lines and wrinkles",
+      "Firms and revitalizes eye area"
+    ],
+    ingredients: "Aloe Barbadensis Leaf Juice (Stabilized Aloe Vera Gel), Water, Caprylic/Capric Triglyceride, Rosmarinus Officinalis (Rosemary) Leaf Extract, Glycerin, Polyglyceryl-6 Distearate, Jojoba Esters, Propanediol, Lauryl Olivate, Glyceryl Stearate, Cetearyl Olivate, Sorbitan Olivate, Polyhydroxystearic Acid, Ammonium Acryloyldimethyltaurate/ VP Copolymer, Palmitoyl Tripeptide-5 Beeswax, Cetyl Alcohol, Hydroxypropyl Cyclodextrin, Palmitoyl Tripeptide-38, Magnesium Gluconate, Albizia Julibrissin Bark Extract, Darutoside, Magnesium Aspartate, Palmitoleic Acid, Pentadecanoic Acid, Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Phenoxyethanol, Panthenol, Sodium Hyaluronate, Dimethicone, Durutea Carota Sativa (Carrot) Root Extract, Capryloyl Glycine, Butylene Glycol, Acetyl Tetrapeptide-5, Hydrolyzed Collagen, Hydrolyzed Corn Starch, Beta Vulgaris (Beet) Root Extract, Capryhydroxamic Acid, Capryloyl Glycol, Ethylhexylglycerin, 1,2-Hexanediol, Linoleic Acid, Linolenic Acid, Arginine, Hydrolyzed Sodium Hyaluronate.",
+    usage: "Using your finger, gently dab a moderate amount below and around the eye area. 0.74 FL. OZ. (21 g)"
+  },
+  {
+    id: "559",
+    name: "Smoothing Exfoliator",
+    description: "Old skin can look flaky, tired and dull. The right exfoliator removes dead skin cells to reveal brighter skin with a smooth tone and texture. Forever's smoothing exfoliator was designed to get the job done without stressing the soft, newer skin underneath. Instead of using harsh chemicals or sharp fragments, smoothing exfoliator uses five powerful yet natural ingredients to work together to provide a complete and rejuvenating cleansing experience. Jojoba beads gently roll across the skin to remove dirt and debris while sustainably-sourced bamboo powder sweeps the skin to remove dead cells. Bromelain, papain and lemon essential oil create a perfect natural skin tonic. Pineapple-derived bromelain has enzymatic abilities that assist in destroying the keratin of dead skin cells allowing them to be removed more easily. Papain, from papaya, assists in rejuvenating skin and is a rich source of vitamins C, A, E and pantothenic acid. Forever's smoothing exfoliator is also infused with antioxidants and aloe gel, designed to provide the most effective and gentle exfoliating experience and lemon essential oil for instant hydration of the younger skin below the surface. Of course, this exclusive formula has a high content of pure inner-leaf aloe vera gel to smooth and condition skin. Make the most of your skin care routine with smoothing exfoliator.",
+    shortDescription: "Smooths skin tone and texture.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Smooths skin tone and texture",
+      "Gently exfoliates to uncover silky soft skin",
+      "Enzymatic extracts resurface the skin",
+      "Gluten Free",
+      "Suitable for vegetarians",
+      "Suitable for vegans"
+    ],
+    benefits: [
+      "Removes dead skin cells gently",
+      "Reveals brighter, smoother skin",
+      "Natural enzymatic exfoliation",
+      "Conditions and hydrates skin"
+    ],
+    ingredients: "Aloe Barbadensis Leaf Juice (Stabilized Aloe Vera Gel), Water, Hydrogenated Jojoba Oil, Propanediol, Glyceryl Stearate, Bambusa Arundinacea Stem Powder, Sodium Cocoyl Isethionate, Cetyl Alcohol, Cocamidopropyl Hydroxysultaine, Stearyl Alcohol, Decyl Glucoside, Stearyl Phosphate, Hydrated Silica, Hydroxystearic/Linolenic/Oleic Polyglycerides, Caprylic/Capric Glycol, Ethylhexylglycerin, Papain, Bromelain, Maltodextrin, Papain, Sodium Citrus Limon (Lemon) Peel Oil, Polyacrylate Crosspolymer-6, Sodium Lactate, Phytic Acid, Xanthan Gum, Disodium EDTA, Chlorphenesin.",
+    usage: "Apply moderate amount onto wet fingers. Gently work in a circular motion over the face, avoiding the eye area. Rinse thoroughly. For refreshed skin, use 2-3 times weekly. Before using, twist off cap and remove seal. 2 FL. OZ. (60 mL)"
+  },
+  {
+    id: "561-lotion",
+    name: "Protecting Day Lotion",
+    description: "Protecting your skin from sun damage and correcting earlier skin-related issues is more important than ever. Start your day off right with Forever's protecting day lotion, now with an improved formula upgraded for all skin types. Protecting day lotion delivers formula double duty, shielding your face from harmful UVA/UVB rays and rehydrating it with a blend of skin-nourishing ingredients. A blend of oils that includes brassica napus, castor and desert date is rich in antioxidants, protecting the skin from free radicals. Castor and desert date oils combine to provide high amounts of essential fatty acids to give your skin a soft, smooth texture. Although rich in nutrients for your skin, these oils absorb quickly and won't clog pores. This new formula also contains linoleic, oleic and palmitoleic essential fatty acids. Each a component of skin-replacement 'lipids,' these ingredients mimic the fat structure of the skin to prevent epidermal water loss, keeping the skin moisturized during sun exposure. The broad spectrum, UVA/UVB sun protection comes from natural mineral zinc oxide. This reef-friendly, non-nano zinc includes advanced coating technology to shield your skin without the telltale sunscreen white cast. No matter your daily level of sun exposure, Forever's protecting day lotion is the perfect addition to any skin care routine.",
+    shortDescription: "Broad-spectrum protection combined with skin care ingredients.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Diminishes the appearance of puffiness and dark circles",
+      "Significantly reduces appearance of wrinkles",
+      "Eyes appear more rested, alert and rejuvenated",
+      "Gluten Free",
+      "Suitable for vegetarians"
+    ],
+    benefits: [
+      "UVA/UVB sun protection",
+      "Hydrates and nourishes skin",
+      "Prevents water loss",
+      "Non-greasy, reef-friendly formula"
+    ],
+    ingredients: "Water, Aloe Barbadensis Leaf Juice (Stabilized Aloe Vera Gel), Propanediol, Brassica Napus Seed Oil, Isoamyl Cocoate, Ricinus Communis (Castor) Seed Oil, Butyloctyl Salicylate, Caprylic/ Capric Triglyceride, Cetyl Alcohol, Balanites Roxburghii Seed Oil, Behenyl Alcohol, Phenoxyethanol, Polyhydroxystearic Acid, Sodium Chloride, Polyoxystearate Oleate, Behenyl Alcohol, Phenoxyethanol, Cetearyl Alcohol, Sodium Chloride, Polyoxystearate Wax, Bentonite, Diethylhexyl 2,6-Naphthalate, Cetearyl Alcohol, Sodium Chloride, Polyoxystearate Oleate, Polyhydroxystearic Acid, Aluminium Stearate, Tocopheryl Acetate, Helianthus Annuus (Sunflower) Seed Oil, Xanthan Gum, Magnesium Sulfate, Aluminium Stearate, Tocopherol, Collagen Amino Acids, Glucoside, Linoleic Acid, Lecithin, Canarium Luzonicum Gum Nonvolatiles, Phytosterols, Canola Glycerides, Citric Acid, Balanites Roxburghii Seed Oil, Oleic Acid, Palmitic Acid, Glyceryl Undecylenate, Stearic Acid, Trolein, Tocopherol Undecylenoyl Phytosphingosine.",
+    usage: "Apply generously and evenly 15 minutes before sun exposure. Reapply at least every 2 hours and after any water activity. 2 FL. OZ. (60 mL)"
+  },
+  {
+    id: "647",
+    name: "Aloe Body Lotion",
+    description: "Forever's Aloe Body Lotion is the perfect everyday moisturizer to soften skin and leave it feeling smooth, hydrated and healthy. Our lightweight formula absorbs quickly to deliver the powerful benefits of aloe vera and other moisturizing ingredients almost instantly. We combined a high concentration of pure inner leaf aloe vera with argan-based oils and botanicals for a skin-enhancing blend of enhancing ingredients to work for you. Aloe forms the ideal base for moisturizing and promoting healthy skin health. Argan oil contains vitamin E and fatty acids that help soften skin while hydrolyzed jojoba esters help promote moisture and skin firmness and elasticity. The addition of macadamia seed oil makes Aloe Body Lotion an excellent choice for dry and mature skin due to its high palmitoleic acid content, which promotes healthy looking skin. But this formula isn't just for people with dry or mature skin. Forever created this silicone-free formula for anyone with normal to dry skin by adding ingredients like sodium hyaluronate, which forms a protective barrier on the skin and helps retain moisture. Aloe Body Lotion also features a bright aroma featuring light florals for a scent that's universally appealing. When you need a go-to daily lotion that leaves skin feeling soft and silky, but never greasy, make sure you have Forever's Aloe Body Lotion close by.",
+    shortDescription: "Fast absorbing lotion, for daily use.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Promotes skin's hydration",
+      "Promotes soft-feeling skin",
+      "Support's skin's natural moisture barrier",
+      "Promotes healthy, youthful-looking skin",
+      "Absorbs quickly into the skin, leaving behind a silky, non-greasy feel",
+      "Gluten Free",
+      "Suitable for vegetarians",
+      "Suitable for vegans"
+    ],
+    benefits: [
+      "Fast-absorbing hydration",
+      "Softens and smooths skin",
+      "Rich in vitamins and fatty acids",
+      "Light floral scent"
+    ],
+    ingredients: "Aloe Barbadensis Leaf Juice (Stabilized Aloe Vera Gel), Water, Caprylic/Capric Triglyceride, Propanediol, C13-15 Alkane, Glyceryl Stearate SE, Butylene Glycol, Undecylenoyl Glycine, Arginine, Phenoxyethanol, PEG-100 Stearate, Hydrogenated Polyisobutene, Acetylated Shea Butter Acetylate Crosspolymer, Fragrance, Capryloyl Glycol, Disodium EDTA, Xanthan Gum, Isosiorbide Dicaprylate, Potassium Sorbate, Hydroxylethylglycerin, Hexylene Glycol, Hydrolyzed Jojoba Esters, Argania Spinosa Kernel Oil, Rosa Canina (Rose Hip) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Macadamia Integrifolia Seed Oil, Tocopherol, Sodium Hyaluronate.",
+    usage: "Apply liberally and gently massage until lotion is completely absorbed into the skin. 8 FL. OZ. (236 mL)"
+  },
+  {
+    id: "87",
+    name: "Radiance By Forever Facewash",
+    description: "Radiance by Forever Facewash is formulated with a blend of natural extracts, offering a deep yet gentle cleansing experience. Infused with aloe vera, licorice, bamboo, apple, carrot, and rose flower extracts, this facewash provides effective cleansing while also nourishing the skin with essential nutrients. It works to eliminate dirt, impurities, and excess oil while keeping the skin hydrated and supple. The combination of natural ingredients helps ensure gentle exfoliation ensures that your skin remains soft, radiant, and refreshed. The inclusion of apple extract aids in gently exfoliating the skin, helping to unclog pores and promote healthy cell turnover. This, combined with aloe vera's natural hydrating properties, ensures that your skin stays moisturized without feeling dry or tight. Licorice extract is particularly beneficial for reducing inflammation and soothing irritation, making this facewash ideal for sensitive skin types or those prone to redness. Bamboo, licorice, and carrot extracts add an antioxidant boost, promoting a youthful glow and helping to combat the appearance of dark spots and pigmentation. Carrot extract, combined with rose flower extract, works to not only cleanse but also enhance skin health, leaving it smooth, soft, and rejuvenated. The antioxidants also help protect the skin from environmental damage, maintaining its natural radiance. Overall, Radiance by Forever Facewash is designed to provide deep cleansing, hydration, and gentle exfoliation in one simple step. It unclogs pores, soothes irritation, reduces dark spots, and promotes youthful skin, making it an essential part of your daily skincare routine.",
+    shortDescription: "Gentle, natural cleanse for radiant skin.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Deep cleansing with natural extracts",
+      "Hydrates and nourishes the skin",
+      "Gently exfoliates, unclogs pores",
+      "Reduces dark spots and pigmentation",
+      "Promotes soft, radiant, youthful skin",
+      "Sulphate Free",
+      "Paraben Free",
+      "Dermatologically tested"
+    ],
+    benefits: [
+      "Deep yet gentle cleansing",
+      "Hydrates and nourishes skin",
+      "Reduces inflammation and dark spots",
+      "Promotes radiant complexion"
+    ],
+    ingredients: "Purified Water, Sodium Lauryl Sarcosinate, Glycerin, Cocamidopropyl Betaine, Geogard ECT (Benzyl Alcohol, Salicylic Acid, Glycerin, Sorbic Acid), Carbopol (Acrylates/C10-30 Alkyl Acrylate Crosspolymer), Polyquaternium-7, Fragrance, Bamboo Extract (Bambusa Arundinaceae), Licorice Extract (Glycyrrhiza Glabra), Apple Extract (Pyrus Malus Fruit), Carrot Extract (Daucus Carota Sativa), Aquaxyl (Xylitylglucoside and Anhydroxylitol and Xylitol), Rose Extract (Rosa Damascena), TEA (Triethanolamine), Aloe Vera Extract (Aloe Barbadersis), EDTA(Ethylenediaminetetraacetic Acid).",
+    usage: "Wet your face. Use sufficient quantity to work up a lather on your face. Massage for a few seconds and rinse off with water. Pat dry. Follow this up with a moisturizer. 100mL"
+  },
+  {
+    id: "88",
+    name: "Radiance By Forever Moisturizer",
+    description: "Radiance by Forever Moisturizer is a luxurious blend of natural extracts, expertly formulated to hydrate and nourish the skin. Infused with aloe vera, moringa oil, wheat germ oil, and saffron, and neem extract, this moisturizer works to provide essential nutrients and promote overall skin health. The rich, yet non-greasy formula absorbs quickly through the skin, providing well-hydrated throughout the day, making it an essential addition to your daily skincare routine. Wheat germ oil and moringa oil are packed with vitamins and antioxidants, which help to protect the skin from damage caused by free radicals. This powerful duo not only promotes healthy skin but also aids in repairing and rejuvenating the skin's appearance. Aloe vera, well-known for its calming properties, soothes irritation, redness, and supports the skin's natural healing processes. Together, these ingredients create a soothing formula that is ideal for all skin types, including sensitive skin. Saffron and wheat germ oil provide additional antioxidant protection, working to even out skin tone and diminish the appearance of fine lines and uneven texture. Neem extract, along with zinc oxide, plays a crucial role in controlling acne and soothing inflammation, while also reducing the appearance of pores. This multifaceted approach ensures that your skin looks its best, feeling revitalized and balanced. Overall, Radiance by Forever Moisturizer is designed to deliver deep hydration while addressing multiple skin concerns. Its lightweight formula absorbs quickly, leaving your skin feeling soft and refreshed without any greasy residue. Embrace a healthier complexion and achieve a radiant glow with this nourishing moisturizer that promotes youthful skin.",
+    shortDescription: "Nourishing, lightweight hydration for radiant skin.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Hydrates and nourishes skin effectively",
+      "Packed with vitamins and antioxidants",
+      "Calms irritation and reduces redness",
+      "Evens skin tone and minimizes fine lines",
+      "Lightweight formula absorbs quickly, non-greasy",
+      "Sulphate Free",
+      "Paraben Free",
+      "Dermatologically Tested",
+      "Mercury Free"
+    ],
+    benefits: [
+      "Deep hydration without greasiness",
+      "Rich in antioxidants and vitamins",
+      "Calms and soothes skin",
+      "Evens tone and reduces fine lines"
+    ],
+    ingredients: "Purified Water, Glycerin, Viscolam® Al 100 (Sodium Polyacryloyldimethyl Taurate, Hydrogenated Polydecene, Trideceth-10), Caprylic/Capric Triglyceride, Olivem 1000 (Cetearyl Olivate, Sorbitan Olivate) Neem Extract (Azadirachta Indica), Geogard ECT (Benzyl Alcohol, Salicylic Acid, Glycerin, Sorbic Acid), Wheatgerm Oil, Moringa Oleifera Oil Moringa Oleifera), Wheatgerm Oil (Triticum Vulgare Germ), Jojoba Oil (Simmondsia Chinensis), Aquaxyl (Xylitylglucoside and Anhydroxylitol and Xylitol), Carbopol (Acrylates/C10-30 Alkyl Acrylate Crosspolymer), Fragrance, Saffron Extract (Crocus Sativus flower), Centella Extract (Centella Asiatica), TEA (Triethanolamine), Allantoin, Zinc Oxide, Aloe vera Extract (Aloe Barbadersis).",
+    usage: "Take sufficient quantity and massage on clean skin. Use circular motions to massage until absorbed. 100mL"
+  },
+  {
+    id: "90",
+    name: "Radiance By Forever Mud Mask Scrub",
+    description: "Only nature can deliver such a powerful yet gentle formula. Infused with the calming properties of Aloe Vera Powder, this advanced treatment soothes, hydrates, and rejuvenates, leaving your skin refreshed and revitalized. Bamboo Charcoal works deeply within the pores, drawing out toxins, impurities, and excess oil, while leaving your skin feeling clean and smooth. This helps to provide a rich dose of antioxidants, vitamins, and essential fatty acids to nourish and protect. The cooling effect of Cucumber Extract helps minimize puffiness and calm inflammation, restoring your skin's smooth and healthy appearance. With regular use, you'll notice refined skin texture, reduced fine lines, and a radiant, balanced complexion. Hydrating yet purifying, this formula supports the skin's natural barrier and leaves your skin soft, smooth, and glowing. Use two to three times a week to detoxify and renew your skin, unlocking your healthiest, most radiant look yet.",
+    shortDescription: "Purify, nourish, and reveal your skin's natural glow with the perfect balance of deep cleansing and soothing hydration.",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Reducing Skin tanning",
+      "Twin Action - Mud Mask + Face Scrub",
+      "Improves the barrier of the skin",
+      "Reduces pigmentation",
+      "Brightens the Skin",
+      "Balanced ingredients for all skin types",
+      "Sulphate Free",
+      "Paraben Free",
+      "Dermatologically tested"
+    ],
+    benefits: [
+      "Deep cleansing with bamboo charcoal",
+      "Reduces puffiness and inflammation",
+      "Refines texture and minimizes fine lines",
+      "Nourishes with vitamins and antioxidants"
+    ],
+    ingredients: "Purified Water, Bentonite, Kaolin, Caprylic/ Capric Triglyceride, Tropolamine, Geogard ECT (Benzyl Alcohol, Salicylic Acida and Glycerin and PEG 100 Stearate, Cetyl Alcohol, Olivem 1000 (Cetearyl Olivate, Sorbitan Olivate), Zinc Oxide, Titanium Dioxide, Cucumber (Cucumis Sativus Fruit Extract, Crithmum maritium (Triticum Germ) Oil, Lemon (Citrus Limon) Fruit Extract, Rosemary (Rosmarinus Officinalis) Leaf Extract, Geogard ECT (Benzyl Alcohol (and) Salicylic Acida (and) Glycerin (and) Sorbic Acid), Glycerin (and) Water (and) Glycine Soja (Soybean) Germ Extract (and) Triticum Vulgare (Wheat) Germ Extract (and) Scutellaria Baicalensis Root Extract, Salvia Bran) Oil, Aquaxl (Xylitylglucoside (and) Anhydroxylitol (and) Xylitol), Sodium Benzoate, Fragrance, Bamboo (Bamboo Charcoal (Bamboo Charcoal) Powder, Xanthum Gum, Salicylic Acid, Disodium EDTA, Allanton, D- Panthenol (Vitamin B5), Glycerin, Apricot (Prunus Armeniaca Kernel Oil), Aloe vera Extract (Aloe-Barbadersis) Menthol, Fragrance, Aloe vera Extract (Aloe-Barbadersis)",
+    usage: "Application Scrub: On a clean face, apply the face mask in sideward strokes. Let in dry for 10 -15 minutes, sit back and relax. Dampen your skin and gently massage in light circular motion to exfoliate the skin. Wash away the your face with water/gently wipe off with a clean wet towel/tissue. Tighten your pores to avoid dust grime back to your's face. Use 1 toner. Seal in the hydration with a moisturizer. 100mL"
+  },
+  {
+    id: "89",
+    name: "Radiance By Forever Toner",
+    description: "Forever Radiance Toner is a gentle yet powerful addition to your skincare routine. Specially formulated with ingredients to balance the skin's natural pH, this toner works to reduce irritation and inflammation, leaving your skin refreshed in every application. Infused with skin-loving ingredients like Licorice Extract (Mulethi) and Aloe Vera Liquid Extract, this toner hydrates and nourishes, helping to keep your skin sensitive while visibly reducing redness. It brightens and evens out your complexion by fading dark spots and hyperpigmentation, promoting a radiant, even-toned glow. Forever Radiance Toner also preps the skin for maximum absorption of subsequent skincare products, ensuring you get the most out of your beauty routine. With Geogard ECT, a COSMOS-approved eco-friendly preservative system, this toner offers superior safety and stability while being gentle on your skin and kind to the environment. Reveal soft, supple, and balanced skin, perfectly primed for your next skincare steps.",
+    shortDescription: "Forever Radiance Toner",
+    image: "",
+    category: "Skincare",
+    categoryId: "skincare",
+    features: [
+      "Maintains the skin's natural pH",
+      "Keeps skin hydrated",
+      "Tightens pores",
+      "Provides an on the go comprehensive skincare solution",
+      "Sulphate Free",
+      "Paraben Free",
+      "Dermatologically tested"
+    ],
+    benefits: [
+      "Balances skin pH",
+      "Reduces irritation and redness",
+      "Brightens and evens skin tone",
+      "Preps skin for better absorption"
+    ],
+    ingredients: "Purified water, Glycerin, Saffron (Crocus Sativus) Flower Extract, Licorice Extract (Glycyrrhiza Glabra) Root Extract, Mulathi, Geogard ECT (Benzyl Alcohol & Salicylic Acid & Glycine & Sorbic Acid), Licorice (Glycyrrhiza Glabra) Root Extract, Allantoin, Fragrance, Aloe Vera Liquid Extract (Aloe Barbadersis)",
+    usage: "On a clean face (after cleansing . Scrub mask application), spray the toner avoid eye area. Let in dry on its own. Seal in the hydration with a moisturizer. You can apply toner multiple times in a day to hydrate but follow up with a moisturizer only on a clean face. 100mL"
   },
 ];
 
