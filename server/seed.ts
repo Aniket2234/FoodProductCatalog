@@ -243,14 +243,16 @@ export async function seedDatabase() {
     console.log("Seeding products...");
     for (const product of PRODUCTS) {
       try {
-        await storage.createProduct(product);
-        console.log(`Created product: ${product.name}`);
-      } catch (error: any) {
-        if (error.code === 11000) {
-          console.log(`Product already exists: ${product.name}`);
+        const existing = await storage.getProductById(product.id);
+        if (existing) {
+          await storage.updateProduct(product.id, product);
+          console.log(`Updated product: ${product.name}`);
         } else {
-          throw error;
+          await storage.createProduct(product);
+          console.log(`Created product: ${product.name}`);
         }
+      } catch (error: any) {
+        console.error(`Error seeding product ${product.name}:`, error);
       }
     }
 
