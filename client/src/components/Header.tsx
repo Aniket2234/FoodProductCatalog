@@ -1,4 +1,4 @@
-import { Search, ShoppingBag } from "lucide-react";
+import { Search } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import { Input } from "@/components/ui/input";
 
@@ -35,9 +35,6 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <button className="md:hidden p-2 hover-elevate active-elevate-2 rounded-md" data-testid="button-search-mobile">
               <Search className="w-5 h-5" />
-            </button>
-            <button className="p-2 hover-elevate active-elevate-2 rounded-md" data-testid="button-cart">
-              <ShoppingBag className="w-5 h-5" />
             </button>
           </div>
         </div>

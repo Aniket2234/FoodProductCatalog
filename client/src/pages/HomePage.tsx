@@ -8,7 +8,7 @@ const CATEGORIES = [
     name: "Drinks",
     description: "Pure stabilized aloe vera drinks and nutritional beverages",
     productCount: 7,
-    image: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800&q=80"
+    image: "/attached_assets/image_1762015439481.png"
   },
   {
     id: "bee",
@@ -33,10 +33,17 @@ const CATEGORIES = [
   },
   {
     id: "skincare",
-    name: "Skincare & Personal Care",
-    description: "Natural skincare and personal care essentials",
-    productCount: 18,
+    name: "Skincare",
+    description: "Natural aloe-based skincare for healthy, glowing skin",
+    productCount: 10,
     image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80"
+  },
+  {
+    id: "personal-care",
+    name: "Personal Care",
+    description: "Essential personal care products for daily wellness",
+    productCount: 8,
+    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=800&q=80"
   },
   {
     id: "household",

@@ -49,13 +49,21 @@ const CATEGORY_DATA: Record<string, any> = {
     ]
   },
   skincare: {
-    name: "Skincare & Personal Care",
+    name: "Skincare",
     description: "Pamper your skin with our natural skincare line featuring aloe vera and other botanicals for healthy, glowing skin.",
     products: [
       { id: "aloe-lotion", name: "Aloe Lotion", description: "Moisturizing body lotion with aloe vera", image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&q=80" },
       { id: "aloe-jelly", name: "Aloe Vera Gelly", description: "Pure aloe vera gel for skin care", image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&q=80" },
       { id: "sonya-cleanser", name: "Sonya Daily Skincare", description: "Complete facial care system", image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&q=80" },
+    ]
+  },
+  "personal-care": {
+    name: "Personal Care",
+    description: "Essential personal care products for daily wellness and hygiene with the natural benefits of aloe vera.",
+    products: [
       { id: "bright-toothgel", name: "Forever Bright Toothgel", description: "Aloe vera and bee propolis toothgel", image: "https://images.unsplash.com/photo-1609682736779-88d4b644bfa5?w=400&q=80" },
+      { id: "aloe-lips", name: "Aloe Lips", description: "Soothing lip balm with aloe and jojoba", image: "https://images.unsplash.com/photo-1621607512214-68297480165e?w=400&q=80" },
+      { id: "aloe-deodorant", name: "Aloe Ever-Shield Deodorant", description: "All-day protection without aluminum", image: "https://images.unsplash.com/photo-1585421514738-01798e348b17?w=400&q=80" },
     ]
   },
   household: {
