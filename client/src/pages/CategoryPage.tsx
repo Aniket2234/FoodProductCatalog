@@ -110,6 +110,17 @@ export default function CategoryPage() {
     <div className="min-h-screen bg-background">
       <Header />
       
+      {displayCategory.image && (
+        <div className="relative h-64 md:h-80 mb-8">
+          <img 
+            src={displayCategory.image} 
+            alt={displayCategory.name}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+        </div>
+      )}
+      
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12">
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-8" data-testid="breadcrumb">
           <Link href="/" className="hover:text-foreground transition-colors" data-testid="link-home-breadcrumb">

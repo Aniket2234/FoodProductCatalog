@@ -10,6 +10,7 @@ const CATEGORIES = [
     id: "bee",
     name: "Bee Products",
     description: "Forever's bee products harness the natural power of the hive. Our bee pollen, royal jelly, and propolis are carefully collected and processed to preserve their natural benefits.",
+    image: "/images/bee-bg.png",
   },
   {
     id: "nutritionals",
@@ -301,14 +302,16 @@ export async function seedDatabase() {
     console.log("Seeding categories...");
     for (const category of CATEGORIES) {
       try {
-        await storage.createCategory(category);
-        console.log(`Created category: ${category.name}`);
-      } catch (error: any) {
-        if (error.code === 11000) {
-          console.log(`Category already exists: ${category.name}`);
+        const existing = await storage.getCategoryById(category.id);
+        if (existing) {
+          await storage.updateCategory(category.id, category);
+          console.log(`Updated category: ${category.name}`);
         } else {
-          throw error;
+          await storage.createCategory(category);
+          console.log(`Created category: ${category.name}`);
         }
+      } catch (error: any) {
+        console.error(`Error seeding category ${category.name}:`, error);
       }
     }
 

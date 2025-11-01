@@ -18,6 +18,7 @@ const categorySchema = new mongoose.Schema({
   id: { type: String, required: true, unique: true },
   name: { type: String, required: true },
   description: { type: String, required: true },
+  image: { type: String, required: false },
 }, { timestamps: true });
 
 export const Product = mongoose.models.Product || mongoose.model("Product", productSchema);
