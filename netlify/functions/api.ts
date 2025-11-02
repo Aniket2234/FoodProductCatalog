@@ -97,13 +97,14 @@ router.post("/categories", async (req, res) => {
   }
 });
 
+app.use('/api', router);
+
 app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   const status = err.status || err.statusCode || 500;
   const message = err.message || "Internal Server Error";
+  console.error("[Netlify Function] Error handler:", err);
   res.status(status).json({ message });
 });
-
-app.use('/.netlify/functions/api', router);
 
 export const handler = async (event: any, context: any) => {
   console.log("[Netlify Function] Handler invoked");
@@ -114,6 +115,7 @@ export const handler = async (event: any, context: any) => {
   try {
     const result = await serverlessHandler(event, context);
     console.log("[Netlify Function] Handler completed successfully");
+    console.log("[Netlify Function] Response status:", result.statusCode);
     return result;
   } catch (error) {
     console.error("[Netlify Function] Handler error:", error);
