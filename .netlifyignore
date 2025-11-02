@@ -1,0 +1,4 @@
+# Ignore files for Netlify builds
+node_modules/
+.git/
+server/
