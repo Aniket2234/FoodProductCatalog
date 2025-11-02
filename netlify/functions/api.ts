@@ -2,7 +2,6 @@ import express, { type Request, Response, NextFunction, Router } from "express";
 import serverless from "serverless-http";
 import { storage } from "../../server/storage";
 import { insertProductSchema, insertCategorySchema } from "../../shared/schema";
-import { seedDatabase } from "../../server/seed";
 
 const app = express();
 const router = Router();
@@ -10,22 +9,8 @@ const router = Router();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-let isSeeded = false;
-async function ensureSeeded() {
-  if (!isSeeded) {
-    try {
-      await seedDatabase();
-      isSeeded = true;
-      console.log("Database seeded successfully");
-    } catch (error) {
-      console.error("Seeding error:", error);
-    }
-  }
-}
-
 router.get("/products", async (req, res) => {
   try {
-    await ensureSeeded();
     const products = await storage.getAllProducts();
     res.json(products);
   } catch (error) {
@@ -66,7 +51,6 @@ router.post("/products", async (req, res) => {
 
 router.get("/categories", async (req, res) => {
   try {
-    await ensureSeeded();
     const categories = await storage.getAllCategories();
     res.json(categories);
   } catch (error) {
