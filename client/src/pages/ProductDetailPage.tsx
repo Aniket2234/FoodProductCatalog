@@ -117,10 +117,10 @@ export default function ProductDetailPage() {
                 const encodedMessage = encodeURIComponent(message);
                 window.open(`https://wa.me/919930953307?text=${encodedMessage}`, '_blank');
               }}
-              className="w-full mb-8 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold py-6 text-lg shadow-lg hover-elevate active-elevate-2"
+              className="w-full mb-8 bg-[#25D366] hover:bg-[#20BA5A] text-white font-semibold py-3 text-base shadow-lg hover-elevate active-elevate-2"
               data-testid="button-enquire-now"
             >
-              <FaWhatsapp className="w-6 h-6 mr-2" />
+              <FaWhatsapp className="w-5 h-5 mr-2" />
               Enquire Now
             </Button>
 
