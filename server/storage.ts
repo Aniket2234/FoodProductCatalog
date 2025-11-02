@@ -5,21 +5,25 @@ import { type InsertProduct, type InsertCategory, type ProductType, type Categor
 let isConnected = false;
 
 export async function connectDB() {
+  console.log("[Storage] connectDB called, isConnected:", isConnected, "readyState:", mongoose.connection.readyState);
   if (isConnected && mongoose.connection.readyState >= 1) {
+    console.log("[Storage] Using existing MongoDB connection");
     return;
   }
 
   try {
     const mongoUri = process.env.MONGODB_URI;
+    console.log("[Storage] MONGODB_URI exists:", !!mongoUri);
     if (!mongoUri) {
       throw new Error("MONGODB_URI is not defined");
     }
 
+    console.log("[Storage] Attempting to connect to MongoDB...");
     await mongoose.connect(mongoUri);
     isConnected = true;
-    console.log("MongoDB connected successfully");
+    console.log("[Storage] MongoDB connected successfully");
   } catch (error) {
-    console.error("MongoDB connection error:", error);
+    console.error("[Storage] MongoDB connection error:", error);
     throw error;
   }
 }
@@ -41,8 +45,11 @@ export interface IStorage {
 
 export class MongoStorage implements IStorage {
   async getAllProducts(): Promise<ProductType[]> {
+    console.log("[MongoStorage] getAllProducts called");
     await connectDB();
+    console.log("[MongoStorage] Querying products from database");
     const products = await Product.find({}).lean();
+    console.log(`[MongoStorage] Found ${products.length} products`);
     return products.map(p => ({
       id: p.id,
       name: p.name,
@@ -140,8 +147,11 @@ export class MongoStorage implements IStorage {
   }
 
   async getAllCategories(): Promise<CategoryType[]> {
+    console.log("[MongoStorage] getAllCategories called");
     await connectDB();
+    console.log("[MongoStorage] Querying categories from database");
     const categories = await Category.find({}).lean();
+    console.log(`[MongoStorage] Found ${categories.length} categories`);
     return categories.map(c => ({
       id: c.id,
       name: c.name,
