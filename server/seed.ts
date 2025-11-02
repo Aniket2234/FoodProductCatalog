@@ -1,4 +1,4 @@
-import { storage, connectDB } from "./storage";
+import { storage } from "./storage";
 
 const CATEGORIES = [
   {
@@ -1976,9 +1976,8 @@ const PRODUCTS = [
 
 export async function seedDatabase() {
   try {
-    console.log("Connecting to MongoDB...");
-    await connectDB();
-    console.log("Connected to MongoDB");
+    console.log("Seeding database...");
+    await storage.getAllCategories();
 
     console.log("Seeding categories...");
     for (const category of CATEGORIES) {

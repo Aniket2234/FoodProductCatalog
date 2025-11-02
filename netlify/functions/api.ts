@@ -85,4 +85,8 @@ app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   res.status(status).json({ message });
 });
 
-export const handler = serverless(app);
+export const handler = async (event: any, context: any) => {
+  context.callbackWaitsForEmptyEventLoop = false;
+  const serverlessHandler = serverless(app);
+  return await serverlessHandler(event, context);
+};

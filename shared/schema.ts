@@ -23,5 +23,5 @@ export const insertCategorySchema = z.object({
 
 export type InsertProduct = z.infer<typeof insertProductSchema>;
 export type InsertCategory = z.infer<typeof insertCategorySchema>;
-export type ProductType = InsertProduct & { _id?: string; createdAt?: Date; updatedAt?: Date };
-export type CategoryType = InsertCategory & { _id?: string; createdAt?: Date; updatedAt?: Date };
+export type ProductType = InsertProduct;
+export type CategoryType = InsertCategory;
